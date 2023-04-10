@@ -80,12 +80,6 @@
 ## [Appearances in Press here](/c/press)
 <!-- <nextmd href="/c/press"> -->
 
-
-
-
-
-
-
 ### Contacts:
 
 * kocsi.olga@gmail.com / nyulga@nyulga.com
