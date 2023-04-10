@@ -1,7 +1,7 @@
 import React from 'react';
 import ParallaxEffect from './parallax';
 import olgaLogo from '../kocsiolgalogo2023.svg';
-import { ReactVivus } from 'react-vivus';
+import Vivus from 'vivus';
 
 export default class Logo extends React.Component {
     constructor(props) {
@@ -11,10 +11,24 @@ export default class Logo extends React.Component {
             parallax: new ParallaxEffect()
         };
         this.mainDiv = React.createRef();
+        this.pleaseScroll = React.createRef();
     }
 
     componentDidMount() {
         this.state.parallax.register(this.mainDiv.current);
+        this.vivus = new Vivus(
+            "olgaLogo2023", {
+                file: olgaLogo,
+                // type: "oneByOne",
+                type: "scenario",
+                duration: 540,
+                animTimingFunction: Vivus.LINEAR,
+                start: "manual",
+                onReady: (() => {
+                    this.vivus.play(1, () => this.pleaseScroll.current.classList.add("visible"));
+                }).bind(this)
+            }
+        );
     }
 
     render() {
@@ -23,12 +37,12 @@ export default class Logo extends React.Component {
         };
         return (
             <div className="logo">
-                <div className="pleaseScroll">
+                <div ref={this.pleaseScroll} className="pleaseScroll">
                     <div className="indicator">
                     </div>
                 </div>
                 <div ref={this.mainDiv} style={divcontainerStyle}>
-                    <img src={olgaLogo} style={{ filter: "invert(1)"}}/>
+                    <div id="olgaLogo2023" style={{ filter: "invert(1)"}} />
                 </div>
             </div>
         );

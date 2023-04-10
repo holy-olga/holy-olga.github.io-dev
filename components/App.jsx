@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Gh1, Gh2 } from './Gh';
 import MainMenu from './MainMenu';
 import Logo from './Logo';
 import MainScrollbar from './MainScrollbar';
