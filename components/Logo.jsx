@@ -2,6 +2,7 @@ import React from 'react';
 import ParallaxEffect from './parallax';
 import olgaLogo from '../kocsiolgalogo2023.svg';
 import Vivus from 'vivus';
+import { SVG, extend as SVGextend, Element as SVGElement } from '@svgdotjs/svg.js'
 
 export default class Logo extends React.Component {
     constructor(props) {
@@ -14,6 +15,18 @@ export default class Logo extends React.Component {
         this.pleaseScroll = React.createRef();
     }
 
+    onSvgReady() {
+        this.vivus.play(1, () => this.pleaseScroll.current?.classList.add("visible"));
+        let svgDoc = document.querySelector(".olgaLogo");
+        this.svg = SVG(svgDoc);
+        this.seed = 0;
+        setInterval((() => {
+            this.seed++;
+            let turbulence = this.svg.findOne("#turbulence");
+            turbulence.attr("seed", this.seed);
+        }).bind(this), 100);
+    }
+
     componentDidMount() {
         this.state.parallax.register(this.mainDiv.current);
         this.vivus = new Vivus(
@@ -24,9 +37,7 @@ export default class Logo extends React.Component {
                 duration: 540,
                 animTimingFunction: Vivus.LINEAR,
                 start: "manual",
-                onReady: (() => {
-                    this.vivus.play(1, () => this.pleaseScroll.current.classList.add("visible"));
-                }).bind(this)
+                onReady: this.onSvgReady.bind(this)
             }
         );
     }
