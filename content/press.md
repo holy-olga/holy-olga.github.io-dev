@@ -1,21 +1,43 @@
-* [https://artportal.hu/magazin/aldott-ladakat-moma-ba/](https://artportal.hu/magazin/aldott-ladakat-moma-ba/)
-* [http://issuu.com/elnfree/docs/balkon_2013_07_08/45](http://issuu.com/elnfree/docs/balkon_2013_07_08/45)
-* [http://phenomenon.hu/a-het-kreativja-kocsi-olga/](http://phenomenon.hu/a-het-kreativja-kocsi-olga/)
-* [http://www.kultura.hu/urtabla-kretaval](http://www.kultura.hu/urtabla-kretaval)
-* [http://juranyihaz.hu/kocsi-olga/](http://juranyihaz.hu/kocsi-olga/)
-* [http://artportal.hu/magazin/kortars/megelegedett-kisnyul-vagy](http://artportal.hu/magazin/kortars/megelegedett-kisnyul-vagy)
-* [http://nol.hu/kult/20130606-vandormaria_es_lebeges?ref=sso](http://nol.hu/kult/20130606-vandormaria_es_lebeges?ref=sso)
-* [http://centrifuga.blog.hu/2013/05/16/szent_olga_es_a_nyul_az_essl_award_magyar_jeloltjei_1_kocsi_olga](http://centrifuga.blog.hu/2013/05/16/szent_olga_es_a_nyul_az_essl_award_magyar_jeloltjei_1_kocsi_olga)
-* [http://www.c3.hu/scripta/lettre/lettre85/00tart.htm](http://www.c3.hu/scripta/lettre/lettre85/00tart.htm)
-* [http://www.c3.hu/scripta/lettre/lettre85/arckep.htm](http://www.c3.hu/scripta/lettre/lettre85/arckep.htm)
-* [http://hg.hu/cikkek/alkotok/15331-holy-olga-ozekrol-nyulakrol-es-ures-papirlapokrol](http://hg.hu/cikkek/alkotok/15331-holy-olga-ozekrol-nyulakrol-es-ures-papirlapokrol)
-* [http://log.pos1t1on.com/lifestyle/890-holy-olga-olga-kocsi](http://log.pos1t1on.com/lifestyle/890-holy-olga-olga-kocsi)
-* [http://www.a38.hu/hu/cikk/a-megmaradas-torvenye](http://www.a38.hu/hu/cikk/a-megmaradas-torvenye)
-* [http://www.zetapress.hu/kultura/kiallitas/37124](http://www.zetapress.hu/kultura/kiallitas/37124)
-* [http://nol.hu/lap/tv/20120831-frissen_festve?ref=sso](http://nol.hu/lap/tv/20120831-frissen_festve?ref=sso)
-* [http://www.dailymotion.com/video/xx348f_uj-tagok-02-in-fkse-2013_creation#.UZdHALtxkUU](http://www.dailymotion.com/video/xx348f_uj-tagok-02-in-fkse-2013_creation#.UZdHALtxkUU)
-* [http://www.kogart.hu/letoltes/sajto/2012/2012-09-21%20Friss,%20de%20nyugtalan%C3%ADt%C3%B3_%C3%89S.pdf](http://www.kogart.hu/letoltes/sajto/2012/2012-09-21%20Friss,%20de%20nyugtalan%C3%ADt%C3%B3_%C3%89S.pdf)
-* [http://www.kogart.hu/letoltes/sajto/2012/2012-09-01%20Friss%202012%20_%20T%C3%A1rlat%20+%20Sir%C3%A1lygl%C3%B3ria%20_HVG.pdf](http://www.kogart.hu/letoltes/sajto/2012/2012-09-01%20Friss%202012%20_%20T%C3%A1rlat%20+%20Sir%C3%A1lygl%C3%B3ria%20_HVG.pdf)
-* [http://artportal.hu/program/kiallitas/20121115/agy-a-hazikobol---kocsi-olga--holy-olga--kiallitasa-18389](http://artportal.hu/program/kiallitas/20121115/agy-a-hazikobol---kocsi-olga--holy-olga--kiallitasa-18389)
-* [http://www.kultura.hu/kostolo-friss-2012](http://www.kultura.hu/kostolo-friss-2012)
-* [http://www.lecool.com/budapest/hu/interview/427](http://www.lecool.com/budapest/hu/interview/427)
+&nbsp;
+
+<cardLink large="true" href="https://artportal.hu/magazin/aldott-ladakat-moma-ba/"></cardLink>
+
+<cardLink large="true" href="http://issuu.com/elnfree/docs/balkon_2013_07_08/45"></cardLink>
+
+<cardLink large="true" href="http://phenomenon.hu/a-het-kreativja-kocsi-olga/"></cardLink>
+
+<cardLink large="true" href="http://www.kultura.hu/urtabla-kretaval"></cardLink>
+
+<cardLink large="true" href="http://juranyihaz.hu/kocsi-olga/"></cardLink>
+
+<cardLink large="true" href="http://artportal.hu/magazin/kortars/megelegedett-kisnyul-vagy"></cardLink>
+
+<cardLink large="true" href="http://nol.hu/kult/20130606-vandormaria_es_lebeges?ref=sso"></cardLink>
+
+<cardLink large="true" href="http://centrifuga.blog.hu/2013/05/16/szent_olga_es_a_nyul_az_essl_award_magyar_jeloltjei_1_kocsi_olga"></cardLink>
+
+<cardLink href="http://www.c3.hu/scripta/lettre/lettre85/00tart.htm"></cardLink>
+
+<cardLink noGraplargehic href="http://www.c3.hu/scripta/lettre/lettre85/arckep.htm"></cardLink>
+
+<cardLink href="http://hg.hu/cikkek/alkotok/15331-holy-olga-ozekrol-nyulakrol-es-ures-papirlapokrol"></cardLink>
+
+<cardLink href="http://log.pos1t1on.com/lifestyle/890-holy-olga-olga-kocsi"></cardLink>
+
+<cardLink large="true" href="http://www.a38.hu/hu/cikk/a-megmaradas-torvenye"></cardLink>
+
+<cardLink href="http://www.zetapress.hu/kultura/kiallitas/37124"></cardLink>
+
+<cardLink large="true" href="http://nol.hu/lap/tv/20120831-frissen_festve?ref=sso"></cardLink>
+
+<cardLink large="true" href="http://www.dailymotion.com/video/xx348f_uj-tagok-02-in-fkse-2013_creation#.UZdHALtxkUU"></cardLink>
+
+<cardLink href="http://www.kogart.hu/letoltes/sajto/2012/2012-09-21%20Friss,%20de%20nyugtalan%C3%ADt%C3%B3_%C3%89S.pdf"></cardLink>
+
+<cardLink href="http://www.kogart.hu/letoltes/sajto/2012/2012-09-01%20Friss%202012%20_%20T%C3%A1rlat%20+%20Sir%C3%A1lygl%C3%B3ria%20_HVG.pdf"></cardLink>
+
+<cardLink href="http://artportal.hu/program/kiallitas/20121115/agy-a-hazikobol---kocsi-olga--holy-olga--kiallitasa-18389"></cardLink>
+
+<cardLink large="true" href="http://www.kultura.hu/kostolo-friss-2012"></cardLink>
+
+<cardLink href="http://www.lecool.com/budapest/hu/interview/427"></cardLink>

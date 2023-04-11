@@ -48,3 +48,15 @@
 .thumb {
     background-color: white;
 }
+
+.large .react_tinylink_card {
+    height: 600px !important;
+}
+
+.react_tinylink_card {
+    background-color: revert !important;
+    /* border-style: revert !important; */
+    border-width: 1px !important;
+    color: #fff !important;
+    font-family: revert !important;
+}

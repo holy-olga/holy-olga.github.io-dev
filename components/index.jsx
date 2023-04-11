@@ -24,7 +24,6 @@ function EntryPoint() {
 
 
     document.title = `Olga Kocsi ${location.pathname}`;
-    window.addEventListener("wheel", e => console.log(e));
 
     if(redirectToEncoded) {
         return <Navigate to={decodeURIComponent(redirectToEncoded)} replace />

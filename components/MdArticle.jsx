@@ -6,6 +6,7 @@ import rehypeRaw from 'rehype-raw';
 import {
     useLocation
 } from 'react-router-dom';
+import { ReactTinyLink } from 'react-tiny-link'
 
 import CodeBlock from "./Codeblock";
 import IframeWrapper from './IframeWrapper';
@@ -168,6 +169,19 @@ export default class MdArticle extends React.Component {
         return <MdComment term={this.props.path} />;
     }
 
+    MdCardLinkComponent(props) {
+        return <div className={props.large ? 'large' : 'small'}>
+            <ReactTinyLink
+                url={props.href}
+                cardSize={props.large ? 'large' : 'small'}
+                width="100%"
+                proxyUrl="https://thingproxy.freeboard.io/fetch"
+                noCache={false}
+                showGraphic={'large' in props}
+            />
+        </div>
+    }
+
     onRef(element) {
         if(element === null) return;
         if(this.elementCache !== element) {
@@ -285,7 +299,9 @@ export default class MdArticle extends React.Component {
                             mdcompare: this.MdCompareComponent.bind(this),
 
                             commentmd: this.MdCommentComponent.bind(this),
-                            mdcomment: this.MdCommentComponent.bind(this)
+                            mdcomment: this.MdCommentComponent.bind(this),
+
+                            cardlink: this.MdCardLinkComponent.bind(this)
                         }}
 
                         transformLinkUri={((uri) => trLinkUri(uri, this.props.path)).bind(this)}
