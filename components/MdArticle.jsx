@@ -170,12 +170,12 @@ export default class MdArticle extends React.Component {
     }
 
     MdCardLinkComponent(props) {
-        return <div className={props.large ? 'large' : 'small'}>
+        return <div className={'large' in props ? 'large' : 'small'}>
             <ReactTinyLink
                 url={props.href}
-                cardSize={props.large ? 'large' : 'small'}
+                cardSize={'large' in props ? 'large' : 'small'}
                 width="100%"
-                proxyUrl="https://thingproxy.freeboard.io/fetch"
+                proxyUrl="https://aco-proxy.cyclic.app"
                 noCache={false}
                 showGraphic={'large' in props}
             />

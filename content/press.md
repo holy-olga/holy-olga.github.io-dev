@@ -18,7 +18,7 @@
 
 <cardLink href="http://www.c3.hu/scripta/lettre/lettre85/00tart.htm"></cardLink>
 
-<cardLink noGraplargehic href="http://www.c3.hu/scripta/lettre/lettre85/arckep.htm"></cardLink>
+<cardLink href="http://www.c3.hu/scripta/lettre/lettre85/arckep.htm"></cardLink>
 
 <cardLink href="http://hg.hu/cikkek/alkotok/15331-holy-olga-ozekrol-nyulakrol-es-ures-papirlapokrol"></cardLink>
 
