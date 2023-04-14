@@ -3,6 +3,6 @@ import MdArticle from './MdArticle';
 
 export default function Home() {
   return (
-    <MdArticle path="/c/works" />
+    <MdArticle path="/c/exhibitions" />
   );
 }
