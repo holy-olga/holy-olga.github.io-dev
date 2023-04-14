@@ -10,8 +10,13 @@ export default class MdFullParallaxWrap extends React.Component {
         this.mainDiv = React.createRef();
         this.mainContent = React.createRef();
     }
+    
     componentDidMount() {
         this.state.parallax.register(this.mainContent.current);
+    }
+
+    componentWillUnmount() {
+        this.state.parallax.unregister();
     }
 
     render() {

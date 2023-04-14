@@ -42,6 +42,10 @@ export default class Logo extends React.Component {
         );
     }
 
+    componentWillUnmount() {
+        this.state.parallax.unregister();
+    }
+
     render() {
         let divcontainerStyle = {
             height: "100%"

@@ -4,12 +4,6 @@ body {
     background-color: black;
     font-family: 'Montserrat', sans-serif;
 }
-#fakeBody {
-    width: 100%;
-}
-body, #fakeBody {
-    overflow-x: hidden;
-}
 body, div, img {
     margin: 0;
     padding: 0;
@@ -29,12 +23,10 @@ body::-webkit-scrollbar-thumb, #root::-webkit-scrollbar-thumb {
 }
 
 #root {
-    /*scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
     position: fixed;
     width: 100vw;
     height: 100vh;
-    perspective: 10px;
-    /*perspective-origin: var(--app-side-center);*/
     overflow-y: scroll;
     overflow-x: hidden;
 }

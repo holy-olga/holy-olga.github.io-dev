@@ -52,6 +52,10 @@ export default class MdPdf extends React.Component {
         }
     }
 
+    componentWillUnmount() {
+        this.state.parallax.unregister();
+    }
+
     hasMergedPairs() {
         return this.props.hasMergedPairs ?? false;
     }

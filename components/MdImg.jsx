@@ -18,6 +18,10 @@ export default class MdImg extends React.Component {
             this.state.parallax.register(this.mainImg.current);
     }
 
+    componentWillUnmount() {
+        this.state.parallax.unregister();
+    }
+
     render() {
         let alt = 'alt' in this.props ? this.props.alt : "";
         if(alt.search("md.full") >= 0)
