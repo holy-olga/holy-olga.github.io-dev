@@ -7,7 +7,6 @@
 }
 
 #mainMenu {
-    position: -webkit-sticky;
     position: var(--main-menu-pos);
     top: 0px;
     z-index: 10;

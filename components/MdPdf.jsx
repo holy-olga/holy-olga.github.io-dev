@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import HTMLFlipBook from "react-pageflip";
+import {Gh1, Gh2} from './Gh';
 import { pdfjs, Document, Outline, Page as PdfPage } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
@@ -18,13 +19,13 @@ export default class MdPdf extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            currPage: 1,
+            currPage: 0,
             pageCount: 1,
             inputPageCount: 1,
             loaded: false,
             displayed: false,
             width: 100,
-            height: 100
+            height: 100,
         };
         this.mainDiv = React.createRef();
         this.flipBook = React.createRef();
@@ -33,28 +34,13 @@ export default class MdPdf extends React.Component {
         this.pdfMaxWidth = 100;
     }
 
-    componentDidMount() {
-        let checkResize = mutations => {
-            if (!this.state.displayed) {
-                return;
-            }
-            const el = mutations[0].target;
-            const w = el.clientWidth;
-            const h = el.clientHeight;
-
-            const isChange = mutations
-                .map((m) => `${m.oldValue}`)
-                .some((prev) => prev.indexOf(`width: ${w}px`) === -1 || prev.indexOf(`height: ${h}px`) === -1);
-            
-            if (isChange) {
-                this.setState(this.getWidthHeight());
-            }
-        }
-        const observer = new MutationObserver(checkResize);
-        observer.observe(this.mainDiv.current, { attributes: true, attributeOldValue: true, attributeFilter: ['style'] });
+    handleResize() {
+        this.setState(this.getWidthHeight());
     }
 
-    componentWillUnmount() {
+    componentDidMount() {
+        window.addEventListener('resize', this.handleResize.bind(this));
+        this.handleResize();
     }
 
     hasMergedPairs() {
@@ -90,19 +76,24 @@ export default class MdPdf extends React.Component {
         }
     }
 
+    isPagePrepared(i) {
+        const range = 4;
+        let id = this.state.currPage;
+        return i >= (id - range) && i < (id + range + 2);
+    }
+
     onDocumentLoaded(pdf) {
         this.scanPageId = 0;
         let callback = () => {
-            let mainWidth = this.mainDiv.current.clientWidth;
             // TODO: single page mode?
-            let mainHeight = (this.pdfMaxHeight / (this.pdfMaxWidth * 2)) * mainWidth;
+            let count = this.hasMergedPairs()
+                ? pdf.numPages * 2 - (this.hasCover() ? 1 : 0)
+                : pdf.numPages;
             this.setState(
                 {
                     loaded: true,
                     inputPageCount: pdf.numPages,
-                    pageCount: this.hasMergedPairs()
-                        ? pdf.numPages * 2 - (this.hasCover() ? 1 : 0)
-                        : pdf.numPages,
+                    pageCount: count,
                     ... this.getWidthHeight()
                 }
             )
@@ -126,8 +117,13 @@ export default class MdPdf extends React.Component {
     onItemClick({ pageNumber: itemPageNumber }) {
         this.setState(
             { currPage: itemPageNumber },
-            () => this.flipBook.current?.pageFlip()?.flip({ pageNum: this.state.currPage - 1 })
+            () => this.flipBook.current?.pageFlip()?.flip({ pageNum: this.state.currPage })
         );
+    }
+
+    onFlipBookChangeState() {
+        let id = this.flipBook.current?.pageFlip()?.getCurrentPageIndex();
+        this.setState({currPage: id});
     }
 
     render() {
@@ -139,9 +135,11 @@ export default class MdPdf extends React.Component {
         if('filter' in passProps) {
             passProps.style = {filter: passProps.filter};
         }
+
+        let mainClass="mdPdf" + ("full" in this.props ? " md-full" : "");
         
         return (
-            <div ref={this.mainDiv} className="mdPdf" {...passProps}>
+            <div ref={this.mainDiv} className={mainClass} {...passProps}>
                 <Document
                     file={this.props.href}
                     onItemClick={this.onItemClick}
@@ -154,12 +152,15 @@ export default class MdPdf extends React.Component {
                     this.state.loaded
                     ? (
                         <HTMLFlipBook
+                            ref={this.flipBook}
                             width={this.state.width * 0.5}
                             height={this.state.height}
                             showCover={this.hasCover()}
-                            maxShadowOpacity={0.3}
+                            maxShadowOpacity={0.4}
                             flippingTime={320}
+                            //renderOnlyPageLengthChange={true}
                             usePortrait={false}
+                            onChangeState={this.onFlipBookChangeState.bind(this)}
                         >{
                             this.hasMergedPairs()
                             ? (
@@ -167,7 +168,7 @@ export default class MdPdf extends React.Component {
                                     if (index == 0 && this.hasCover()) {
                                         return (
                                             <div className={`pdfpage page-${index}`} key={`page_${index}`}>
-                                                <PdfPage pageIndex={index} width={this.state.width * 0.5} />
+                                                {this.isPagePrepared(index) ? <PdfPage pageIndex={index} width={this.state.width * 0.5} /> : <></>}
                                             </div>
                                         )
                                     }
@@ -178,7 +179,7 @@ export default class MdPdf extends React.Component {
                                         return (
                                             <div className={`pdfpage page-${index}`} key={`page_${index}`}>
                                                 <div className={halfPageClass}>
-                                                    <PdfPage pageIndex={pdfPageNum} width={this.state.width} />
+                                                    {this.isPagePrepared(index) ? <PdfPage pageIndex={pdfPageNum} width={this.state.width} /> : <></>}
                                                 </div>
                                             </div>
                                         );
@@ -187,13 +188,15 @@ export default class MdPdf extends React.Component {
                             ) : (
                                 Array.from(new Array(this.state.pageCount), (el, index) => (
                                     <div className={`pdfpage page-${index}`} key={`page_${index}`}>
-                                        <PdfPage pageIndex={index} width={this.state.width * 0.5} />
+                                        {this.isPagePrepared(index) ? <PdfPage pageIndex={index} width={this.state.width * 0.5} /> : <></>}
                                     </div>
                                 ))
                             )
                         }
                         </HTMLFlipBook>
-                    ) : (<p>Loading PDF</p>)
+                    ) : (
+                        <Gh1 glitchtype="1">loading</Gh1>
+                    )
                 }
                 </Document>
             </div>

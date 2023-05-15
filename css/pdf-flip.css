@@ -2,6 +2,14 @@
     overflow: hidden;
 }
 
+.mdPdf {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.mdPdf.md-full {
+    overflow: visible;
+}
+
 .half-page {
     position: absolute;
     width: 200%;
