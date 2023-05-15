@@ -17,6 +17,7 @@ import MdComment from './MdComment';
 import MdCompare from './MdCompare';
 import MdLazyLoad from './MdLazyLoad';
 import { MdLinkHandler, GetMdUrl } from './MdLinkHandler';
+import MdPdf from './MdPdf';
 
 function getMainTextOfComponent(component) {
     if(typeof(component) === 'string') return component;
@@ -149,6 +150,20 @@ export default class MdArticle extends React.Component {
         );
         return (
             <div className="mdLottie invalid"></div>
+        )
+    }
+
+    MdPdfComponent(props) {
+        let {url, isFile, isDomain} = GetMdUrl(props.href);
+        let passProps = {...props};
+        delete passProps.href;
+        if(isFile || !isDomain) return (
+            <MdLazyLoad>
+                <MdPdf href={url} {...passProps} />
+            </MdLazyLoad>
+        );
+        return (
+            <div className="mdpdf invalid">Invalid PDF</div>
         )
     }
 
@@ -300,8 +315,11 @@ export default class MdArticle extends React.Component {
 
                             commentmd: this.MdCommentComponent.bind(this),
                             mdcomment: this.MdCommentComponent.bind(this),
+                            
+                            mdpdf: this.MdPdfComponent.bind(this),
+                            pdfmd: this.MdPdfComponent.bind(this),
 
-                            cardlink: this.MdCardLinkComponent.bind(this)
+                            cardlink: this.MdCardLinkComponent.bind(this),
                         }}
 
                         transformLinkUri={((uri) => trLinkUri(uri, this.props.path)).bind(this)}

@@ -1,0 +1,11 @@
+.pdfpage {
+    overflow: hidden;
+}
+
+.half-page {
+    position: absolute;
+    width: 200%;
+}
+.half-page.right {
+    right: 0%;
+}

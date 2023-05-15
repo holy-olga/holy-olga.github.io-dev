@@ -1,4 +1,6 @@
-
+* {
+    forced-color-adjust: none;
+}
 body {
     color: white;
     background-color: black;
