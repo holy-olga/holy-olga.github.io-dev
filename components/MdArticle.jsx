@@ -17,7 +17,7 @@ import MdComment from './MdComment';
 import MdCompare from './MdCompare';
 import MdLazyLoad from './MdLazyLoad';
 import { MdLinkHandler, GetMdUrl } from './MdLinkHandler';
-import MdPdf from './MdPdf';
+import MdPdfRoot from './MdPdfRoot';
 
 function getMainTextOfComponent(component) {
     if(typeof(component) === 'string') return component;
@@ -159,7 +159,7 @@ export default class MdArticle extends React.Component {
         delete passProps.href;
         if(isFile || !isDomain) return (
             <MdLazyLoad>
-                <MdPdf href={url} {...passProps} />
+                <MdPdfRoot href={url} {...passProps} />
             </MdLazyLoad>
         );
         return (

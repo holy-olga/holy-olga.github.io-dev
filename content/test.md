@@ -12,7 +12,9 @@ This text says <span style="color: pink; text-shadow: 0px 0px 20px red; display:
 
 ## Testing PDF
 
-<mdpdf href="projects/133rd-story/2024.pdf" cover="true" mergedpairs="true"></mdpdf>
+<mdpdf href="cv2023_eng.pdf" cover="true"></mdpdf>
+<mdpdf href="test.pdf" mergedpairs="true"></mdpdf>
+<mdpdf href="projects/133rd-story/2024.pdf" cover="true" mergedpairs="true" full="true"></mdpdf>
 
 ## Testing pictures
 
