@@ -17,13 +17,17 @@
     margin-bottom: 0px !important;
 }
 
+.mdCaptionWrap {
+    margin-bottom: 0px;
+}
+
 .mdArticle img[alt*="md.center"] {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
 }
 
-.mdArticle img:last-child {
+.mdArticle img:last-child, .mdCaptionWrap:last-child {
     margin-bottom: calc(var(--emphasized-content-margin) - 10px);
 }
 
@@ -67,4 +71,15 @@
 
 .mdArticle img[alt*="md.invert-desaturate"], .mdArticle .invert-desaturate, .mdArticle *[invert-desaturate] {
     filter: invert(100%) saturate(0%);
+}
+
+.imgCaption {
+    position: sticky;
+    bottom: 0px;
+    z-index: 100;
+    background: #000;
+    padding: 9px 15px;
+}
+.imgCaptionPre, .imgCaptionPost {
+    height: 15px;
 }

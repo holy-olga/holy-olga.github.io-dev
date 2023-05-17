@@ -44,6 +44,9 @@
 .mdArticle .md-full:last-child {
     margin-bottom: calc(var(--emphasized-content-margin) - 10px);
 }
+.mdCaptionWrap .md-full {
+    margin-bottom: revert !important;
+}
 
 .thumb {
     background-color: white;

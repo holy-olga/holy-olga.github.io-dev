@@ -24,13 +24,22 @@ export default class MdImg extends React.Component {
 
     render() {
         let alt = 'alt' in this.props ? this.props.alt : "";
+        let captioned = alt.split("caption: ");
         if(alt.search("md.full") >= 0)
         {
-            return (
+            return (<div className="mdCaptionWrap">
                 <MdFullParallaxWrap>
                     <img {...this.props} />
                 </MdFullParallaxWrap>
-            );
+                {
+                    captioned.length > 1
+                    ? (<>
+                        <div className="imgCaptionPre"></div>
+                        <span className="imgCaption">{captioned[1]}</span>
+                        <div className="imgCaptionPost"></div>
+                    </>) : <></>
+                }
+            </div>);
         }
         else
         {
