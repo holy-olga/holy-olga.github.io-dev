@@ -13,7 +13,7 @@ export function GetLocalPathFromUrl(urlin) {
             localPath: candidate.pathname
         };
     } catch(e) {
-        let candidate = new URL(window.location.href + '/../' + urlin)
+        let candidate = new URL(window.location.href.replace(/#[^\/]*/gm, '') + '/../' + urlin)
         return {
             url: candidate,
             localPath: candidate.pathname
@@ -23,7 +23,10 @@ export function GetLocalPathFromUrl(urlin) {
 
 export function GetMdUrl(href) {
     let {url, localPath} = GetLocalPathFromUrl(href);
-    if(IsCurrentDomain(url.href) && localPath.includes('.') && localPath.includes('root/'))
+    let sanitizedUrl = url.href.replace(/#[^\/]*/gm, '');
+    let sanitized = GetLocalPathFromUrl(sanitizedUrl);
+
+    if(IsCurrentDomain(sanitized.url.href) && localPath.includes('.') && sanitized.localPath.includes('root/'))
         return {
             url: new URL(localPath.replace(/.*root\//gm, ''), window.origin).href,
             isRoot: true,
@@ -33,7 +36,7 @@ export function GetMdUrl(href) {
             isRoute: false,
             isAnchor: false
         };
-    if(IsCurrentDomain(url.href) && localPath.includes('.'))
+    if(IsCurrentDomain(sanitized.url.href) && sanitized.localPath.includes('.'))
         return {
             url: url.href.replace('/c/', '/content/'),
             isRoot: false,

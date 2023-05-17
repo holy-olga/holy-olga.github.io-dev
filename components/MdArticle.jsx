@@ -149,7 +149,7 @@ export default class MdArticle extends React.Component {
             </MdLazyLoad>
         );
         return (
-            <div className="mdLottie invalid"></div>
+            <div className="mdLottie invalid"><Gh1 glitchtype={1}>❌</Gh1></div>
         )
     }
 
@@ -163,7 +163,7 @@ export default class MdArticle extends React.Component {
             </MdLazyLoad>
         );
         return (
-            <div className="mdpdf invalid">Invalid PDF</div>
+            <div className="mdpdf invalid"><Gh1 glitchtype={1}>❌</Gh1></div>
         )
     }
 

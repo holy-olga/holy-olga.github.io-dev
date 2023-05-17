@@ -18,8 +18,8 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 function Page(props)
 {
     return <PdfPage {...props}
-        error={<Gh1 glitchtype="1">🚫</Gh1>}
-        noData={<Gh1 glitchtype="1">❌</Gh1>}
+        error={<Gh1 glitchtype="1">❌</Gh1>}
+        noData={<Gh1 glitchtype="1">⚠️</Gh1>}
         loading={<Gh1 glitchtype="1">♾️</Gh1>}
         onRenderError={e => console.log(e)}
         onLoadError={e => console.log(e)}
@@ -187,9 +187,9 @@ export default class MdPdf extends React.Component {
                         cMapPacked: true
                     }}
                     onLoadSuccess={this.onDocumentLoaded.bind(this)}
-                    error={<Gh1 glitchtype="1">ERROR</Gh1>}
-                    noData={<Gh1 glitchtype="1">NO DATA</Gh1>}
-                    onLoadError={<Gh1 glitchtype="1">LOAD ERROR</Gh1>}
+                    error={<Gh1 glitchtype="1">❌</Gh1>}
+                    noData={<Gh1 glitchtype="1">⚠️</Gh1>}
+                    onLoadError={<Gh1 glitchtype="1">💢</Gh1>}
                     renderMode="canvas"
                 > {
                     this.state.loaded
