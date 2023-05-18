@@ -22,11 +22,17 @@ Public Space: The Management Dimension
 
 </span>
 
+![md.parallax](bed-from-the-cottage/marikeepfest.png)
+
 ![md.expand](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_10B.jpg)
 
 ### Text by my mother, Dr. Sarolta Kovácsy:
 
-> Zoltán Váry Vojtovics painted this painting in 1941. The painting shows Hungary’s patron, Maria standing on a globe which is interestingly in flames. He started to paint war-related pictures at that time. Váry entrusted Maria to help Hungary in the war. She holds the crown in her hands on a velvet pillow. This particular painting was made for an altar-piece in a church made by Migazzi in Veresegyház. In the 50s as there was no hammer and sickle emblem on it, they sold and delivered the painting to Mesztegnyő with a farm-wagon. It was used as an altar-piece there. When I became a medical student and later when I finished my studies, my mother and my grandmother always cried about how they’d lost their religious properties. I decided to write a letter signed as Dr. Kovácsy Sarolta so they thought I’m a lawyer and they immediately sent the painting back by train to Rákospalota. Later on the thieves couldn’t steal it because it’s such a huge piece it wouldn’t pass through a double-sided door either. The frame arrived highly damaged so we got a fair amount of money for it from the insurance company. It was a Blondel frame, around 40 cm wide. The painting was placed in our house, and it’s still there. We got lots of paintings stolen from there, we had several burglaries but the Maria painting is still there. Olga used to sleep underneath it when she was a little girl, and who thought she would eventually produce her degree work about this piece.
+> Zoltán Váry Vojtovics painted this painting in 1941. The painting shows Hungary’s patron, Maria standing on a globe which is interestingly in flames. He started to paint war-related pictures at that time. Váry entrusted Maria to help Hungary in the war. She holds the crown in her hands on a velvet pillow. This particular painting was made for an altar-piece in a church made by Migazzi in Veresegyház. In the 50s as there was no hammer and sickle emblem on it, they sold and delivered the painting to Mesztegnyő with a farm-wagon. It was used as an altar-piece there.
+> 
+> When I became a medical student and later when I finished my studies, my mother and my grandmother always cried about how they’d lost their religious properties. I decided to write a letter signed as Dr. Kovácsy Sarolta so they thought I’m a lawyer and they immediately sent the painting back by train to Rákospalota. Later on the thieves couldn’t steal it because it’s such a huge piece it wouldn’t pass through a double-sided door either.
+> 
+> The frame arrived highly damaged so we got a fair amount of money for it from the insurance company. It was a Blondel frame, around 40 cm wide. The painting was placed in our house, and it’s still there. We got lots of paintings stolen from there, we had several burglaries but the Maria painting is still there. Olga used to sleep underneath it when she was a little girl, and who thought she would eventually produce her degree work about this piece.
 
 ![md.full](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_06.jpg)
 
