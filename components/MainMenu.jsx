@@ -12,7 +12,7 @@ export default class MainMenu extends React.Component {
                     <Link to="/c/news">News</Link>
                 </Gh2>
                 <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <Link to="/c/works">Projects</Link>
+                    <Link to="/c/projects">Projects</Link>
                 </Gh2>
                 <Gh2 onlyhover glitchtype="1" className="menuItem">
                     <Link to="/c/exhibitions">Exhibitions</Link>

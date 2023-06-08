@@ -32,7 +32,12 @@ glob(
                 {
                     model.img = "social_thumb.jpg";
                 }
+                if(!('title' in model))
+                {
+                    model.title = "Olga Kocsi / " + cpath;
+                }
                 model.path = cpath;
+                model.domain = "nyulga.com";
                 let output = mustache.render(template, model);
                 fse.outputFileSync(tpath, output);
             }

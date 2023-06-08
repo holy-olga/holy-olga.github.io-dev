@@ -1,3 +1,8 @@
+<!-- {
+    "img": "bed-from-the-cottage/mary_hobo_0.jpg",
+    "desc": "Ágy a házikóból / Bed from the cottage"
+} -->
+
 # Ágy a házikóból
 **Bed from the cottage**
 
