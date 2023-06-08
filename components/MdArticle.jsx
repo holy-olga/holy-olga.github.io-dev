@@ -6,7 +6,7 @@ import rehypeRaw from 'rehype-raw';
 import {
     useLocation
 } from 'react-router-dom';
-import { ReactTinyLink } from 'react-tiny-link'
+import { LinkPreview } from '@dhaiwat10/react-link-preview';
 
 import CodeBlock from "./Codeblock";
 import IframeWrapper from './IframeWrapper';
@@ -185,14 +185,24 @@ export default class MdArticle extends React.Component {
     }
 
     MdCardLinkComponent(props) {
+        function handleResponse(response) {
+            if (response.status === 204 || response.status === 205) {
+              return null;
+            }
+            return response.json();
+        }
+
         return <div className={'large' in props ? 'large' : 'small'}>
-            <ReactTinyLink
+            <LinkPreview
                 url={props.href}
-                cardSize={'large' in props ? 'large' : 'small'}
+                openInNewTab
+                fetcher={u => {
+                    let hostname = window.location.hostname.replace(".", "-");
+                    return fetch(`https://holyolga-linkpreview-${window.location.hostname}.herokuapp.com/v2?url=${u}`)
+                        .then(handleResponse)
+                        .then(result => Promise.resolve(result.metadata));
+                }}
                 width="100%"
-                proxyUrl="https://aco-proxy.cyclic.app"
-                noCache={false}
-                showGraphic={'large' in props}
             />
         </div>
     }
