@@ -11,9 +11,8 @@ A pilgrimage within myself: mapping the past. I look back on my own life from th
 
 Material: UV paint, UV lamp, mirror box with sign.
 
-![md.parallax](Invisible-Journey_2023/DSC_9165.jpg)
-
 ![md.full](Invisible-Journey_2023/4G0A1740.JPG)
+![md.full](Invisible-Journey_2023/DSC_9165.jpg)
 
 This project was exhibited together with
 

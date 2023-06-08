@@ -115,3 +115,27 @@ table {
 .mainScrollbar.hidden {
     opacity: 0.0;
 }
+
+blockquote {
+    z-index: 2;
+}
+
+blockquote::before, blockquote::after {
+    color: #333;
+    font-size: 180px;
+    mix-blend-mode: screen;
+    line-height: 0px;
+}
+
+blockquote::before {
+    content: "”";
+    position: absolute;
+    transform: translate(-40px, 65px);
+}
+
+blockquote::after {
+    content: "“";
+    position: absolute;
+    right: 0px;
+    transform: translate(00px, 20px);
+}
