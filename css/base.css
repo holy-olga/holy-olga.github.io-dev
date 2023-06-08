@@ -130,12 +130,12 @@ blockquote::before, blockquote::after {
 blockquote::before {
     content: "”";
     position: absolute;
-    transform: translate(-40px, 65px);
+    transform: translate(-40px, 60px);
 }
 
 blockquote::after {
     content: "“";
     position: absolute;
     right: 0px;
-    transform: translate(00px, 20px);
+    transform: translate(00px, 5px);
 }
