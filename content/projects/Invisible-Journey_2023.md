@@ -18,3 +18,5 @@ This project was exhibited together with
 
 * [Olga Kocsi as Holy Olga (2023)](/c/projects/OlgaKocsi-as-HolyOlga_2023)
 * [Rákospalota-Pannonhalma Pilgrimage 2023](/c/projects/Raakospalota-Pannonhalma-Pilgrimage_2023)
+
+## [Back to projects](/c/projects)

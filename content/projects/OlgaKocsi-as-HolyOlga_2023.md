@@ -36,3 +36,5 @@ This project was exhibited together with
 
 * [Invisible Journey (2023)](/c/projects/Invisible-Journey_2023)
 * [Rákospalota-Pannonhalma Pilgrimage (2023)](/c/projects/Raakospalota-Pannonhalma-Pilgrimage_2023)
+
+## [Back to projects](/c/projects)

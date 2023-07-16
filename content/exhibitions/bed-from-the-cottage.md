@@ -1,6 +1,7 @@
 <!-- {
     "img": "bed-from-the-cottage/mary_hobo_0.jpg",
-    "desc": "Ágy a házikóból / Bed from the cottage"
+    "title": "Ágy a házikóból / Bed from the cottage",
+    "desc": "The city really no longer contains distinct private and public spaces"
 } -->
 
 # Ágy a házikóból
@@ -10,7 +11,7 @@ I’ve been exploring the borderlines between the public and the private space. 
 
 > The city really no longer contains distinct private and public spaces
 
-<span style="display: flex; flex-direction: column; align-items: flex-end">
+<span class="mdRightAlign">
 
 Vilém Flusser / The City as Wave-Trough in the Image-Flood
 
@@ -20,7 +21,7 @@ Vilém Flusser / The City as Wave-Trough in the Image-Flood
 
 > Public space (broadly defined) relates to all those parts of the built and natural environment, public and private, internal and external, urban and rural, where the public have free, although not necessarily unrestricted, access. It encompasses: all the streets, squares and other rights of way, whether predominantly in residential, commercial or community/civic uses; the open spaces and parks; the open countryside; the ‘public/private’ spaces both internal and external where public access is welcomed – if controlled – such as private shopping centres or rail and bus stations; and the interiors of key public and civic buildings such as libraries, churches, or town halls
 
-<span style="display: flex; flex-direction: column; align-items: flex-end">
+<span class="mdRightAlign">
 
 Matthew Carmona – Caudio de MAGALHAES – Leo Hammond  
 Public Space: The Management Dimension
