@@ -5,6 +5,8 @@
 } -->
 
 # Beton LADA
+**DERKO 2019**, Műcsarnok, Budapest, Hungary  
+**Leopold Bloom 2022**, Q contemporary, Budapest, Hungary
 
 ![md.parallax](Beton-Lada_2019/0.jpg)
 
@@ -18,8 +20,8 @@ mixed media. sculpter + sound
 </span>
 
 ![md.expand](Beton-Lada_2019/3.jpg)
-![md.full](Beton-Lada_2019/1.jpg)
-![md.full](Beton-Lada_2019/4.jpg)
+![md.full caption: The inner space of the BETON LADA, 2019](Beton-Lada_2019/1.jpg)
+![md.full caption: The inner space of the BETON LADA, 2019](Beton-Lada_2019/4.jpg)
 ![md.full](Beton-Lada_2019/5.jpg)
 
 ## [Back to projects](/c/projects)
