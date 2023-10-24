@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import IrmaGraph from './art/IrmaGraph/Render';
 
 import {
     BrowserRouter,
@@ -41,6 +42,7 @@ render(
         <Routes>
             <Route path="/" element={<EntryPoint />} >
                 <Route index element={<Home />} />
+                <Route path="graph-test" element={<IrmaGraph />} />
                 <Route path="c/*" element={<RoutedMdArticle />} />
                 <Route path="*" element={<PageNotFound />} />
             </Route>
