@@ -41,12 +41,12 @@ This project wouldn’t have been realized without the involvement of these expe
 * microelectronics
 * Sensors
 * Arduino
-* video documentation: 2’ 34” FullHD
+* video documentation: 2' 34" FullHD
 
 ## Press
 
-<cardLink href="https://artportal.hu/magazin/aldott-ladakat-moma-ba/"></cardLink>
+<cardlink href="https://artportal.hu/magazin/aldott-ladakat-moma-ba/"></cardlink>
 
-<cardLink href="https://museum.photoireland.org/programme-2019/museumtv/"></cardLink>
+<cardlink href="https://museum.photoireland.org/programme-2019/museumtv/"></cardlink>
 
 ## [Back to projects](/c/projects)

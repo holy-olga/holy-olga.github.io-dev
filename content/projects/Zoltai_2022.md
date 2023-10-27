@@ -17,4 +17,6 @@ The objects on the white left wall come from the collection of Déri Museum, the
 ![md.expand](Zoltai_2022/zoltai_01.jpg)
 ![md.full](Zoltai_2022/zoltai02.jpg)
 
+Related work: [Olga as a Soldier Museum Guard (2022)](/c/projects/Olga-as-a-soldier-museum-guard_2022)
+
 ## [Back to projects](/c/projects)
