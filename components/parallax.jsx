@@ -13,14 +13,14 @@ export default class ParallaxEffect
         this.transitionMs = 1000.0;
         this.transitionPeriod = 0.0;
 
-        this.uuid = crypto.randomUUID();
-        this.animStyle = null;
         this.dependencies = {
-            absTopOffset: 0,
-            absHeight: 1,
+            rootHeight: 1,
             vpHeight: 0,
-            elemHeight: 0
+            elemHeight: 0,
+            coeff: 0
         }
+        this.viewProgressTimeline = null;
+        this.animation = null;
     }
 
     determinePerfMode(timestamp)
@@ -37,21 +37,13 @@ export default class ParallaxEffect
         {
             this.lowPerfMode = this.perfCounter < 0;
         }
-
-
         this.prevTimestamp = timestamp;
-    }
-
-    absTop(el, t)
-    {
-        return  el == this.root || !el
-            ? t
-            : this.absTop(el.offsetParent, t + el.offsetTop);
     }
 
     getParallaxCoeff(refElement)
     {
         let coeffStr = getComputedStyle(refElement).getPropertyValue('--parallax-coeff');
+        coeffStr = refElement.getAttribute("parallaxcoeff") ?? coeffStr;
         return parseFloat(coeffStr);
     }
 
@@ -85,59 +77,60 @@ export default class ParallaxEffect
         window.requestAnimationFrame(animBody);
     }
 
-    updateKeyframes(refElement)
+    updateTimeline(refElement)
     {
-        let coeff = this.getParallaxCoeff(refElement);
-        let centerOffset = (this.dependencies.vpHeight - this.dependencies.elemHeight) * 0.5;
-        let pivotPoint = this.dependencies.absTopOffset - centerOffset;
-        let animMaxPx = this.dependencies.absHeight - this.dependencies.vpHeight;
-        let zeroKey = (pivotPoint / animMaxPx) * 100;
-        let animMaxValue = (animMaxPx - pivotPoint) * coeff;
-        
-        let keyframes = `0% { transform: translateY(-${pivotPoint * coeff}px); } ` +
-            `${zeroKey}% { transform: translateY(0px); } ` +
-            `100% { transform: translateY(${animMaxValue}px); }`;
+        if (this.animation) {
+            this.animation.cancel();
+            this.animation = null;
+            this.viewProgressTimeline = null;
+        }
 
-        this.animStyle.innerText = "";
-        this.animStyle.innerText= `@keyframes _${this.uuid} { ${keyframes} }`;
+        let coeff = this.dependencies.coeff || 0;
+        let elHeight = this.dependencies.elemHeight;
+        let beginOffs = this.dependencies.vpHeight * 0.5 + elHeight * 0.5;
+        let endOffs = - this.dependencies.vpHeight * 0.5 - elHeight * 0.5;
+        this.viewProgressTimeline = new ViewTimeline({
+            subject: refElement
+        });
+        this.animation = refElement.animate({
+            transform: [`translateY(${-beginOffs * coeff}px)`, `translateY(${-endOffs * coeff}px)`]
+        }, {
+            timeline: this.viewProgressTimeline,
+            rangeStart: 'cover 0%',
+            rangeEnd: 'cover 100%',
+        });
     }
 
     getNewDependencies(refElement)
     {
         return {
-            absTopOffset: this.absTop(refElement, 0),
-            absHeight: this.root.scrollHeight,
+            rootHeight: this.root.scrollHeight,
             vpHeight: window.innerHeight,
-            elemHeight: refElement.offsetHeight
+            elemHeight: refElement.offsetHeight,
+            coeff: this.getParallaxCoeff(refElement)
         }
+    }
+
+    checkDependencies(prev, current)
+    {
+        return prev.rootHeight != current.rootHeight
+            || prev.vpHeight != current.vpHeight
+            || prev.elemHeight != current.elemHeight
+            || prev.coeff != current.coeff;
     }
 
     registerWithScrollAnimTimeline(refElement)
     {
         this.root = document.getElementById("root");
-        this.animStyle = document.createElement('style')
-        this.animStyle.id = this.uuid;
-        document.head.appendChild(this.animStyle);
-
-        refElement.style.animationName = `_${this.uuid}`;
-        refElement.style.animationDuration = "1s";
-        refElement.style.animationDirection = "forwards";
-        refElement.style.animationTimingFunction = "linear";
-        refElement.style.animationTimeline = "scroll(nearest)";
 
         this.dependencies = this.getNewDependencies(refElement);
-        this.updateKeyframes(refElement)
+        this.updateTimeline(refElement);
         
         let animBody = (timestamp => {
             let current = this.getNewDependencies(refElement);
-            if (
-                this.dependencies.absTopOffset != current.absTopOffset
-                || this.dependencies.absHeight != current.absHeight
-                || this.dependencies.vpHeight != current.vpHeight
-                || this.dependencies.elemHeight != current.elemHeight
-            ) {
+            if (this.checkDependencies(this.dependencies, current)) {
                 this.dependencies = current;
-                this.updateKeyframes(refElement);
+                this.updateTimeline(refElement);
             }
             window.requestAnimationFrame(animBody);
         }).bind(this);
@@ -146,14 +139,6 @@ export default class ParallaxEffect
 
     register(refElement)
     {
-        this.registerWithAnimFrame(refElement);
-    }
-
-    unregister()
-    {
-        if (this.animStyle !== null)
-        {
-            document.head.removeChild(this.animStyle);
-        }
+        this.registerWithScrollAnimTimeline(refElement);
     }
 }

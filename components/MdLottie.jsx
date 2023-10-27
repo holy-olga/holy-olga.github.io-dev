@@ -38,10 +38,6 @@ export default class MdLottie extends React.Component {
         }).bind(this)));
     }
 
-    componentWillUnmount() {
-        this.state.parallax.unregister();
-    }
-
     render() {
         let passProps = {...this.props};
         delete passProps.href;
