@@ -19,6 +19,7 @@ import MdLazyLoad from './MdLazyLoad';
 import { MdLinkHandler, GetMdUrl } from './MdLinkHandler';
 import MdPdfRoot from './MdPdfRoot';
 import IrmaGraph from './art/IrmaGraph/Render';
+import DisableWhileResizing from './DisableWhileResizing';
 
 function getMainTextOfComponent(component) {
     if(typeof(component) === 'string') return component;
@@ -313,7 +314,9 @@ export default class MdArticle extends React.Component {
 
                             irmagraph: props => (
                                 <MdLazyLoad>
-                                    <IrmaGraph />
+                                    <DisableWhileResizing>
+                                        <IrmaGraph />
+                                    </DisableWhileResizing>
                                 </MdLazyLoad>
                             ),
 

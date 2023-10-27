@@ -15,18 +15,19 @@ export default class MdFullParallaxWrap extends React.Component {
         this.state.parallax.register(this.mainContent.current);
     }
 
-    componentWillUnmount() {
-        this.state.parallax.unregister();
-    }
-
     render() {
         
+        let optionals = {};
+        if (this.props.parallaxcoeff) {
+            optionals = {...optionals, parallaxcoeff: this.props.parallaxcoeff};
+        }
+
         if (this.props.noblur) {
             return (
                 <div ref={this.mainDiv} className="md-full" style={{
                     backgroundColor: "black",
-                }} >
-                    <div ref={this.mainContent}>
+                }}>
+                    <div ref={this.mainContent} {...optionals}>
                         {this.props.children}
                     </div>
                 </div>
@@ -36,7 +37,7 @@ export default class MdFullParallaxWrap extends React.Component {
         let firstChild = ("props" in this.props.children)
             ? this.props.children
             : this.props.children[0];
-            
+
         let blurredChildren = React.cloneElement(
             firstChild,
             {
@@ -50,9 +51,9 @@ export default class MdFullParallaxWrap extends React.Component {
         return (
             <div ref={this.mainDiv} className="md-full" style={{
                 backgroundColor: "black",
-            }} >
+            }}>
                 {blurredChildren}
-                <div ref={this.mainContent}>
+                <div ref={this.mainContent} {...optionals}>
                     {this.props.children}
                 </div>
             </div>

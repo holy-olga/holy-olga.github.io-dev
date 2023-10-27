@@ -11,26 +11,28 @@ export default class MdImg extends React.Component {
         this.mainImg = React.createRef();
     }
     componentDidMount() {
-        let alt = 'alt' in this.props ? this.props.alt : "";
-        let isParallax = alt.search("md.parallax") >= 0;
+        let alt = this.props.alt ?? "";
+        let isParallax = alt.includes("md.parallax") || alt.includes("force-parallax");
 
         if(isParallax)
             this.state.parallax.register(this.mainImg.current);
-    }
-
-    componentWillUnmount() {
-        this.state.parallax.unregister();
     }
 
     render() {
         let alt = 'alt' in this.props ? this.props.alt : "";
         let captioned = alt.split("caption: ");
         let noBlur = alt.includes("no-blur");
+        let parallaxCoeff = /parallax-coeff:(?<coeff>[\d\.]+)/.exec(alt)?.groups;
+        let optionals = {};
+
+        if (parallaxCoeff?.coeff) {
+            optionals = {...optionals, parallaxcoeff: parseFloat(parallaxCoeff.coeff)};
+        }
         if(alt.search("md.full") >= 0)
         {
             return (<div className="mdCaptionWrap">
-                <MdFullParallaxWrap noblur={noBlur}>
-                    <img {...this.props} />
+                <MdFullParallaxWrap noblur={noBlur} {...optionals}>
+                    <img {...this.props}/>
                 </MdFullParallaxWrap>
                 {
                     captioned.length > 1
@@ -44,7 +46,7 @@ export default class MdImg extends React.Component {
         }
         else
         {
-            return <img ref={this.mainImg} {...this.props} />;
+            return <img ref={this.mainImg} {...this.props} {...optionals} />;
         }
     }
 }
