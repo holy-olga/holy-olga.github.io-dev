@@ -18,6 +18,7 @@ import MdCompare from './MdCompare';
 import MdLazyLoad from './MdLazyLoad';
 import { MdLinkHandler, GetMdUrl } from './MdLinkHandler';
 import MdPdfRoot from './MdPdfRoot';
+import IrmaGraph from './art/IrmaGraph/Render';
 
 function getMainTextOfComponent(component) {
     if(typeof(component) === 'string') return component;
@@ -309,6 +310,13 @@ export default class MdArticle extends React.Component {
                                     <IframeWrapper {...props} />
                                 </MdLazyLoad>
                             ),
+
+                            irmagraph: props => (
+                                <MdLazyLoad>
+                                    <IrmaGraph />
+                                </MdLazyLoad>
+                            ),
+
                             nextmd: this.MdNextComponent.bind(this),
                             mdnext: this.MdNextComponent.bind(this),
                             mdinsert: this.MdNextComponent.bind(this),

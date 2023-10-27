@@ -13,6 +13,14 @@ export default class IrmaGraph extends React.Component {
         this.renderedNodes = [];
         this.nodeMap = {};
         this.willDismount = false;
+
+        this.prevTimestamp = -1.0;
+        this.frameMs = 0.0;
+        this.animDriver = 0.0;
+        this.navigated = false;
+        this.prevNavigated = false;
+        this.scrollBypass = 0;
+        this.prevScrollBypass = false;
     }
     
     updateHighlight() {
@@ -20,7 +28,7 @@ export default class IrmaGraph extends React.Component {
         this.graph
             .nodeColor(this.graph.nodeColor())
             .linkWidth(this.graph.linkWidth())
-            .linkDirectionalParticles(this.graph.linkDirectionalParticles());
+            //.linkDirectionalParticles(this.graph.linkDirectionalParticles());
     }
 
     componentDidMount() {
@@ -53,7 +61,7 @@ export default class IrmaGraph extends React.Component {
 
         this.graph = ForceGraph3D()(this.mainDiv.current)
             .graphData(irmaGraphData)
-            .enableNodeDrag(false)
+            .enableNodeDrag(true)
             .backgroundColor("rgba(0,0,0,0)")
             .linkWidth(link => {
                 if (highlightLinks.has(link))
@@ -63,9 +71,11 @@ export default class IrmaGraph extends React.Component {
             .linkOpacity(0.4)
             .linkColor(link => link.group)
             .linkCurvature(0.4)
-            .linkDirectionalParticles(link => highlightLinks.has(link) ? 8 : 0)
-            .linkDirectionalParticleWidth(2)
-            .linkDirectionalParticleSpeed(0.2)
+            //.linkDirectionalParticles(link => highlightLinks.has(link) ? 8 : 0)
+            //.linkDirectionalParticleWidth(2)
+            //.linkDirectionalParticleSpeed(0.2)
+            .showNavInfo(true)
+            .enableNavigationControls(true)
             .nodeThreeObject(node => {
                 const group = new THREE.Group();
                 let addSphere = true;
@@ -107,14 +117,13 @@ export default class IrmaGraph extends React.Component {
 
                     if ("text" in node) {
                         const textSprite = makeText();
-                        textSprite.translateY(0-scale/2-textHeight);
-                        textSprite.translateZ(1);
+                        textSprite.center = new THREE.Vector2(0.5, scale/textHeight/4);
                         group.add(textSprite);
                     }
                 }
                 else if (node.group === "text") {
                     const textSprite = makeText();
-                    textSprite.translateY(textHeight + padding);
+                    textSprite.center = new THREE.Vector2(0.5, -0.1);
                     group.add(textSprite);
                 }
                 if (addSphere)
@@ -159,14 +168,34 @@ export default class IrmaGraph extends React.Component {
                 this.updateHighlight();
             });
 
+        const distance = 650;
+
         let animBody = (timestamp => {
             if (this.willDismount) return;
-            this.renderedNodes.forEach((node, index) => {
-                let camera = this.graph.camera();
-                let cameraQuat = new THREE.Quaternion(0, 0, 0, 1);
-                cameraQuat.setFromRotationMatrix(camera.matrixWorldInverse);
-                node.rotation.setFromQuaternion(cameraQuat.invert());
-            });
+            
+            this.frameMs = this.prevTimestamp == -1.0 ? 1 : timestamp - this.prevTimestamp;
+            this.animDriver += this.frameMs;
+            this.scrollBypass -= this.frameMs;
+            let currScrollBypass = this.scrollBypass > 0;
+
+            if (currScrollBypass && !this.prevScrollBypass) {
+                this.graph.enableNavigationControls(false)
+            }
+            if (!currScrollBypass && this.prevScrollBypass) {
+                this.graph.enableNavigationControls(true)
+            }
+
+            if (!this.navigated) {
+                let rads = this.animDriver * Math.PI / 12600;
+                this.graph.cameraPosition({
+                    x: distance * Math.sin(rads),
+                    z: distance * Math.cos(rads)
+                  });
+            }
+
+            this.prevNavigated = this.navigated;
+            this.prevScrollBypass = currScrollBypass;
+            this.prevTimestamp = timestamp;
             window.requestAnimationFrame(animBody);
         }).bind(this);
         window.requestAnimationFrame(animBody);
@@ -180,7 +209,18 @@ export default class IrmaGraph extends React.Component {
 
     render() {
         return (
-            <div ref={this.mainDiv} className='md-full'/>
+            <div
+                ref={this.mainDiv}
+                className='md-full'
+                onWheel={e => {
+                    if (!e.ctrlKey) {
+                        this.graph.enableNavigationControls(false);
+                        this.scrollBypass = 1500;
+                    }
+                }}
+                onMouseDown={e => this.navigated = true}
+                onPointerDown={e => this.navigated = true}
+            />
         )
     }
 }
