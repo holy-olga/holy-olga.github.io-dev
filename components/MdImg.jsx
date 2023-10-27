@@ -25,10 +25,11 @@ export default class MdImg extends React.Component {
     render() {
         let alt = 'alt' in this.props ? this.props.alt : "";
         let captioned = alt.split("caption: ");
+        let noBlur = alt.includes("no-blur");
         if(alt.search("md.full") >= 0)
         {
             return (<div className="mdCaptionWrap">
-                <MdFullParallaxWrap>
+                <MdFullParallaxWrap noblur={noBlur}>
                     <img {...this.props} />
                 </MdFullParallaxWrap>
                 {
