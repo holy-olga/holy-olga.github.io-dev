@@ -3,6 +3,6 @@
 
 <a href="/c/projects/OlgaKocsi-as-HolyOlga_2023">
 
-![md.full](OlgaKocsi-as-HolyOlga_2023/DSC04655.jpg)
+![_full](OlgaKocsi-as-HolyOlga_2023/DSC04655.jpg)
 
 </a>

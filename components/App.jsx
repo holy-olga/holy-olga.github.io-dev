@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import MainMenu from './MainMenu';
 import Logo from './Logo';
 import MainScrollbar from './MainScrollbar';
+import SvgFilters from './SvgFilters';
 
 export default class App extends React.Component {
     constructor(props) {
@@ -12,7 +13,8 @@ export default class App extends React.Component {
     render() {
         const { children, intro } = this.props;
 
-        return (
+        return <>
+            <SvgFilters />
             <div id="appRoot">
                 {intro ? <Logo /> : <div style={{display: "none"}} />}
                 {intro ? <></> : <h1
@@ -30,7 +32,7 @@ export default class App extends React.Component {
                 <div id="footer"></div>
                 <MainScrollbar />
             </div>
-        );
+        </>;
     }
 }
     

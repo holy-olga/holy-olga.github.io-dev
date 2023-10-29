@@ -7,6 +7,6 @@ Collaboration with *Eszter Ágnes Szabó*
 
 <a href="/c/projects/Irma5Seconds_2021">
 
-![md.full](Irma5Seconds_2021/letseat-enterior-30.exact1980w.jpg)
+![_full](Irma5Seconds_2021/letseat-enterior-30.exact1980w.jpg)
 
 </a>

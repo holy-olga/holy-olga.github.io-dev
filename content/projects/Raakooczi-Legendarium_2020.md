@@ -7,15 +7,15 @@
 # Rákóczi Legendarium
 **ISBN Book+Gallery**, Budapest, Hungary, 2020
 
-![md.parallax](Raakooczi-Legendarium_2020/005kocsi_olga_rakoczilenegdarium.jpg)
+![_parallax(side)](Raakooczi-Legendarium_2020/005kocsi_olga_rakoczilenegdarium.jpg)
 
 The project is a continuation of the installation and event series at the **TODO: LINK: RákóCity project** room, which once operated on the intersection of Rákóczi tér and Víg utca in 2019. During the exhibition last summer, Kocsi got to know the area’s residents and bystanders, collecting their personal, sometimes funny, sometimes deeply touching or interesting stories. Polaroid and digital images of visitors and delinquents were also taken in a gold-covered massage sofa as a central element of the installation.
 
 A sparkling golden book has been made, enclosing all befriendings and the development of relationships at the corner of Rákóczi Square. The exhibition in the ISBN Book+Gallery, taking place a year later, draws on the legends collected the preceding year, about the joint pancake baking and lemonade drinking in Víg utca. It presents the photo book compiled during the **TODO: LINK: RákóCity project**. Visitors can sample the visual imprint gathered over the course of that year, view or listen to small but significant details of life stories and meditate in the gold-covered massage sofa.
 
-![md.expand](Raakooczi-Legendarium_2020/008kocsi_olga_rakoczilenegdarium.jpg)
-![md.full caption: ISBN Book+Gallery, 2020](Raakooczi-Legendarium_2020/003kocsi_olga_rakoczilenegdarium.jpg)
-![md.full](Raakooczi-Legendarium_2020/006kocsi_olga_rakoczilenegdarium.jpg)
+![_expand](Raakooczi-Legendarium_2020/008kocsi_olga_rakoczilenegdarium.jpg)
+![_full caption:'ISBN Book+Gallery, 2020'](Raakooczi-Legendarium_2020/003kocsi_olga_rakoczilenegdarium.jpg)
+![_full](Raakooczi-Legendarium_2020/006kocsi_olga_rakoczilenegdarium.jpg)
 
 <span style="display: flex; fkex-direction: row; justify-content: center; align-items: center; gap: 10px;">
 <span>
@@ -32,12 +32,14 @@ A sparkling golden book has been made, enclosing all befriendings and the develo
 </span>
 <span style="width: 50%">
 
-![md.expand](Raakooczi-Legendarium_2020/layout-01.svg)
+![_expand](Raakooczi-Legendarium_2020/layout-01.svg)
 
 </span>
 </span>
 
-![md.expand](Raakooczi-Legendarium_2020/007kocsi_olga_rakoczilenegdarium.jpg)
+![_expand](Raakooczi-Legendarium_2020/007kocsi_olga_rakoczilenegdarium.jpg)
+
+![_parallax(side) notInArticle filter:'url(#cartoonWiggle)'](Raakooczi-Legendarium_2020/aallo.Still022.webp)
 
 ## MARYANN
 
@@ -123,6 +125,8 @@ Nagyon izgalmas pont ebben a korban Magyarországon lenni, hogy bevállaltuk ezt
 
 </span>
 </span>
+
+![_parallax(side) notInArticle filter:'url(#cartoonWiggle)'](Raakooczi-Legendarium_2020/aallo.Still003.webp)
 
 ## ALEXINE
 
@@ -248,8 +252,8 @@ De a nők, nem tudom jól kifejezni, hogyan... nincs gyerekem. Szerintem sok nő
 </span>
 </span>
 
-![md.full caption: ISBN Book+Gallery, 2020](Raakooczi-Legendarium_2020/010kocsi_olga_rakoczilenegdarium.jpg)
-![md.full](Raakooczi-Legendarium_2020/_MG_8042.jpg)
+![_full caption:'ISBN Book+Gallery, 2020'](Raakooczi-Legendarium_2020/010kocsi_olga_rakoczilenegdarium.jpg)
+![_full](Raakooczi-Legendarium_2020/_MG_8042.jpg)
 
 # TODO: PRESS
 

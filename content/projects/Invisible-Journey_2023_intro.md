@@ -3,6 +3,6 @@
 
 <a href="/c/projects/Invisible-Journey_2023">
 
-![md.full](Invisible-Journey_2023/4G0A1740.JPG)
+![_full](Invisible-Journey_2023/4G0A1740.JPG)
 
 </a>

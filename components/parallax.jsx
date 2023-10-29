@@ -12,6 +12,7 @@ export default class ParallaxEffect
         this.lowPerfMode = false;
         this.transitionMs = 1000.0;
         this.transitionPeriod = 0.0;
+        this.unclipped = false;
 
         this.dependencies = {
             rootHeight: 1,
@@ -20,7 +21,8 @@ export default class ParallaxEffect
             coeff: 0
         }
         this.viewProgressTimeline = null;
-        this.animation = null;
+        this.animations = [];
+        this.unregistered = false;
     }
 
     determinePerfMode(timestamp)
@@ -43,8 +45,9 @@ export default class ParallaxEffect
     getParallaxCoeff(refElement)
     {
         let coeffStr = getComputedStyle(refElement).getPropertyValue('--parallax-coeff');
-        coeffStr = refElement.getAttribute("parallaxcoeff") ?? coeffStr;
-        return parseFloat(coeffStr);
+        if (refElement.hasAttribute("parallaxcoeff"))
+            coeffStr = refElement.getAttribute("parallaxcoeff");
+        return Math.max(parseFloat(coeffStr), 0);
     }
 
     registerWithAnimFrame(refElement)
@@ -79,26 +82,45 @@ export default class ParallaxEffect
 
     updateTimeline(refElement)
     {
-        if (this.animation) {
-            this.animation.cancel();
-            this.animation = null;
+        if (this.animations.length > 0) {
+            this.animations.forEach(a => a.cancel());
+            this.animations = [];
             this.viewProgressTimeline = null;
         }
 
-        let coeff = this.dependencies.coeff || 0;
+        let coeff = 1 - (this.dependencies.coeff || 0);
         let elHeight = this.dependencies.elemHeight;
         let beginOffs = this.dependencies.vpHeight * 0.5 + elHeight * 0.5;
         let endOffs = - this.dependencies.vpHeight * 0.5 - elHeight * 0.5;
         this.viewProgressTimeline = new ViewTimeline({
             subject: refElement
         });
-        this.animation = refElement.animate({
-            transform: [`translateY(${-beginOffs * coeff}px)`, `translateY(${-endOffs * coeff}px)`]
-        }, {
-            timeline: this.viewProgressTimeline,
-            rangeStart: 'cover 0%',
-            rangeEnd: 'cover 100%',
-        });
+        let prevTr = refElement.style.transform ?? "";
+        console.log(prevTr);
+        this.animations.push(
+            refElement.animate([
+                { transform: `${prevTr} translateY(${-beginOffs * coeff}px)`, offset: 0 },
+                { transform: `${prevTr} translateY(${-endOffs * coeff}px)`, offset: 1 },
+            ], {
+                timeline: this.viewProgressTimeline,
+                rangeStart: 'cover 0%',
+                rangeEnd: 'cover 100%',
+            })
+        );
+        if (!this.unclipped) {
+            this.animations.push(
+                refElement.animate([
+                    { opacity: 0, offset: 0 },
+                    { opacity: 1, offset: 0.15 },
+                    { opacity: 1, offset: 0.85 },
+                    { opacity: 0, offset: 1 },
+                ], {
+                    timeline: this.viewProgressTimeline,
+                    rangeStart: 'cover 0%',
+                    rangeEnd: 'cover 100%',
+                })
+            );
+        }
     }
 
     getNewDependencies(refElement)
@@ -127,18 +149,30 @@ export default class ParallaxEffect
         this.updateTimeline(refElement);
         
         let animBody = (timestamp => {
+            if (this.unregistered) return;
+
             let current = this.getNewDependencies(refElement);
             if (this.checkDependencies(this.dependencies, current)) {
                 this.dependencies = current;
                 this.updateTimeline(refElement);
             }
-            window.requestAnimationFrame(animBody);
+            if (!this.unregistered)
+                window.requestAnimationFrame(animBody);
         }).bind(this);
+
         window.requestAnimationFrame(animBody);
     }
 
-    register(refElement)
+    register(refElement, unclipped)
     {
+        if (unclipped) {
+            this.unclipped = true;
+        }
         this.registerWithScrollAnimTimeline(refElement);
+    }
+
+    unregister()
+    {
+        this.unregistered = true;
     }
 }

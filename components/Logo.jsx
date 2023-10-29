@@ -28,7 +28,7 @@ export default class Logo extends React.Component {
     }
 
     componentDidMount() {
-        this.state.parallax.register(this.mainDiv.current);
+        this.state.parallax.register(this.mainDiv.current, true);
         this.vivus = new Vivus(
             "olgaLogo2023", {
                 file: olgaLogo,
@@ -40,6 +40,10 @@ export default class Logo extends React.Component {
                 onReady: this.onSvgReady.bind(this)
             }
         );
+    }
+
+    componentWillUnmount() {
+        this.state.parallax.unregister();
     }
 
     render() {

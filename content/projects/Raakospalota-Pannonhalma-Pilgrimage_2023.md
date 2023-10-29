@@ -9,4 +9,4 @@
 
 If we assume a distance between the self and the world, that could be traversed in countless ways. The path is untrodden, the signposts are deceptive, everyone outlines their own map. Most drawings or spaces, understood as labyrinths, can be divided into two parts: a filled and an unfilled one. There exists, therefore, the obstacle and the space left free. From this point of view, the squares drawn on paper are elements that allow for wandering and at the same time serve as maps.
 
-![md.full](Raakospalota-Pannonhalma-Pilgrimage_2023/main.jpg)
+![_full](Raakospalota-Pannonhalma-Pilgrimage_2023/main.jpg)

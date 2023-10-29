@@ -3,6 +3,6 @@
 
 <a href="/c/projects/Zoltai_2022">
 
-![md.full](Zoltai_2022/zoltai02.jpg)
+![_full](Zoltai_2022/zoltai02.jpg)
 
 </a>

@@ -28,7 +28,7 @@ export default class MdLottie extends React.Component {
             this.setState({
                 animData: JSON.parse(data)
             });
-            if('parallax' in this.props) {
+            if('sideparallax' in this.props) {
                 this.state.parallax.register(this.mainDiv.current);
             }
         }).bind(this))
@@ -36,6 +36,10 @@ export default class MdLottie extends React.Component {
         .catch((reason => this.setState({
             animData: errorData
         }).bind(this)));
+    }
+
+    componentWillUnmount() {
+        this.state.parallax.unregister();
     }
 
     render() {

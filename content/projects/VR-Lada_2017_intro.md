@@ -5,6 +5,6 @@
 
 <a href="/c/projects/VR-Lada_2017">
 
-![md.full](VR-Lada_2017/VR_LADA_Space.jpg)
+![_full](VR-Lada_2017/VR_LADA_Space.jpg)
 
 </a>

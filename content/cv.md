@@ -1,6 +1,6 @@
 ## About me
 
-![md.parallax](olga.jpg)
+![_parallax(side)](olga.jpg)
 
 ### Studies
 

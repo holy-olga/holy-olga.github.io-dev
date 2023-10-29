@@ -3,6 +3,6 @@
 
 <a href="/c/projects/Olga-as-a-soldier-museum-guard_2022">
 
-![md.full](Olga-as-a-soldier-museum-guard_2022/katona_olga_02.jpg)
+![_full](Olga-as-a-soldier-museum-guard_2022/katona_olga_02.jpg)
 
 </a>

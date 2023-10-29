@@ -1,44 +1,97 @@
 import React from 'react';
 import ParallaxEffect from './parallax';
 import MdFullParallaxWrap from './MdFullParallaxWrap';
+import parseMetaObject from './AltMeta';
 
 export default class MdImg extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            parallax: new ParallaxEffect()
-        };
+        this.meta = {};
+        this.hasParallax = false;
+        this.isSideParallax = false;
+        this.parallax = new ParallaxEffect();
         this.mainImg = React.createRef();
-    }
-    componentDidMount() {
-        let alt = this.props.alt ?? "";
-        let isParallax = alt.includes("md.parallax") || alt.includes("force-parallax");
 
-        if(isParallax)
-            this.state.parallax.register(this.mainImg.current);
+        let alt = (props.alt ?? "");
+        if (alt.length > 0 && alt[0] == '_')
+        {
+            alt = alt.substring(1);
+            this.meta = parseMetaObject(alt);
+            this.hasParallax = "parallax" in this.meta;
+            console.log(this.meta);
+    
+            if(this.hasParallax) {
+                this.isSideParallax = "side" in this.meta.parallax;
+            }
+        }
+    }
+
+    componentDidMount() {
+        if(this.hasParallax && this.mainImg?.current) {
+            this.parallax.register(this.mainImg.current, "full" in this.meta);
+        }
+    }
+
+    componentWillUnmount() {
+        this.parallax.unregister();
     }
 
     render() {
-        let alt = 'alt' in this.props ? this.props.alt : "";
-        let captioned = alt.split("caption: ");
-        let noBlur = alt.includes("no-blur");
-        let parallaxCoeff = /parallax-coeff:(?<coeff>[\d\.]+)/.exec(alt)?.groups;
+        let propsCopy = {...this.props};
+        let caption = this.meta.caption ?? "";
+        let noBlur = "noBlur" in this.meta;
         let optionals = {};
+        let classes = propsCopy.className ?? "";
 
-        if (parallaxCoeff?.coeff) {
-            optionals = {...optionals, parallaxcoeff: parseFloat(parallaxCoeff.coeff)};
+        propsCopy.style = propsCopy.style ?? {};
+        delete propsCopy.className;
+
+        ["expand", "center", "notInArticle", "invert", "desaturate"].forEach(f => {
+            if (f in this.meta) {
+                classes += " " + f;
+            }
+        });
+
+        if (this.isSideParallax) {
+            classes += " sideParallax";
         }
-        if(alt.search("md.full") >= 0)
+
+        if ("parallax" in this.meta && "coeff" in this.meta.parallax) {
+            optionals = {...optionals, parallaxcoeff: parseFloat(this.meta.parallax.coeff)};
+        }
+
+        if ("filter" in this.meta) {
+            propsCopy.style.filter = (
+                (propsCopy.style.filter ?? "") + " " + this.meta.filter
+            ).trim();
+        }
+
+        if ("transform" in this.meta) {
+            propsCopy.style.transform = (
+                (propsCopy.style.transform ?? "") + " " + this.meta.transform
+            ).trim();
+        }
+
+        if ("style" in this.meta) {
+            propsCopy.style = {...propsCopy.style, ...this.meta.style};
+        }
+
+        if ("zindex" in this.meta) {
+            propsCopy.style.position = "relative";
+            propsCopy.style.zIndex = this.meta.zindex;
+        }
+
+        if("full" in this.meta)
         {
             return (<div className="mdCaptionWrap">
                 <MdFullParallaxWrap noblur={noBlur} {...optionals}>
-                    <img {...this.props}/>
+                    <img {...propsCopy} className={classes.trim()}/>
                 </MdFullParallaxWrap>
                 {
-                    captioned.length > 1
+                    caption.length > 0
                     ? (<>
                         <div className="imgCaptionPre"></div>
-                        <span className="imgCaption">{captioned[1]}</span>
+                        <span className="imgCaption">{caption}</span>
                         <div className="imgCaptionPost"></div>
                     </>) : <></>
                 }
@@ -46,7 +99,7 @@ export default class MdImg extends React.Component {
         }
         else
         {
-            return <img ref={this.mainImg} {...this.props} {...optionals} />;
+            return <img ref={this.mainImg} {...propsCopy} className={classes.trim()} {...optionals} />;
         }
     }
 }

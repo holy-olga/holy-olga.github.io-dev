@@ -17,7 +17,7 @@ Vilém Flusser / The City as Wave-Trough in the Image-Flood
 
 </span>
 
-![md.full](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_01.jpg)
+![_full](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_01.jpg)
 
 > Public space (broadly defined) relates to all those parts of the built and natural environment, public and private, internal and external, urban and rural, where the public have free, although not necessarily unrestricted, access. It encompasses: all the streets, squares and other rights of way, whether predominantly in residential, commercial or community/civic uses; the open spaces and parks; the open countryside; the ‘public/private’ spaces both internal and external where public access is welcomed – if controlled – such as private shopping centres or rail and bus stations; and the interiors of key public and civic buildings such as libraries, churches, or town halls
 
@@ -28,9 +28,9 @@ Public Space: The Management Dimension
 
 </span>
 
-![md.parallax](bed-from-the-cottage/marikeepfest.png)
+![_parallax(side)](bed-from-the-cottage/marikeepfest.png)
 
-![md.expand](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_10B.jpg)
+![_expand](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_10B.jpg)
 
 ### Text by my mother, Dr. Sarolta Kovácsy:
 
@@ -40,7 +40,7 @@ Public Space: The Management Dimension
 > 
 > The frame arrived highly damaged so we got a fair amount of money for it from the insurance company. It was a Blondel frame, around 40 cm wide. The painting was placed in our house, and it’s still there. We got lots of paintings stolen from there, we had several burglaries but the Maria painting is still there. Olga used to sleep underneath it when she was a little girl, and who thought she would eventually produce her degree work about this piece.
 
-![md.full](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_06.jpg)
+![_full](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_06.jpg)
 
 ### Materials:
 | | | |
@@ -55,24 +55,24 @@ Public Space: The Management Dimension
 
 &nbsp;
 
-![md.full](bed-from-the-cottage/mary_hobo_1.jpg)
+![_full](bed-from-the-cottage/mary_hobo_1.jpg)
 
 One photo from the series depicts a homeless man. While he was sleeping I placed the painting behind him. I would have been really sorry if he never knew this so later I printed the photo and delivered it to him.
 
-![md.full](bed-from-the-cottage/mary_hobo_2.jpg)
-![md.full caption: 2017, exhibited Sex of the angel, Nicodim Gallery, Bucharest](bed-from-the-cottage/bucharest_2017.jpg)
-![md.full caption: solo exhibition , Borderlines. Casati Gallery 2012, Budapest](bed-from-the-cottage/bunny_tv_0.jpg)
+![_full](bed-from-the-cottage/mary_hobo_2.jpg)
+![_full caption:'2017, exhibited Sex of the angel, Nicodim Gallery, Bucharest'](bed-from-the-cottage/bucharest_2017.jpg)
+![_full caption:'solo exhibition , Borderlines. Casati Gallery 2012, Budapest'](bed-from-the-cottage/bunny_tv_0.jpg)
 
 <iframe full="true" title="vimeo-player" src="https://player.vimeo.com/video/25047003?h=852581ae05" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-![md.parallax](bed-from-the-cottage/mary_city_1.jpg)
-![md.expand](bed-from-the-cottage/mary_city_3.jpg)
-![md.full](bed-from-the-cottage/mary_city_2.jpg)
-![md.full](bed-from-the-cottage/mary_city_6-0.jpg)
-![md.full](bed-from-the-cottage/mary_city_7.jpg)
-![md.full](bed-from-the-cottage/mary_hobo_0.jpg)
-![md.full](bed-from-the-cottage/mary_city_4.jpg)
-![md.full](bed-from-the-cottage/mary_christ_0.jpg)
-![md.full](bed-from-the-cottage/mary_city_0.jpg)
+![_parallax(side)](bed-from-the-cottage/mary_city_1.jpg)
+![_expand](bed-from-the-cottage/mary_city_3.jpg)
+![_full](bed-from-the-cottage/mary_city_2.jpg)
+![_full](bed-from-the-cottage/mary_city_6-0.jpg)
+![_full](bed-from-the-cottage/mary_city_7.jpg)
+![_full](bed-from-the-cottage/mary_hobo_0.jpg)
+![_full](bed-from-the-cottage/mary_city_4.jpg)
+![_full](bed-from-the-cottage/mary_christ_0.jpg)
+![_full](bed-from-the-cottage/mary_city_0.jpg)
 
 ## [Back to exhibitons](/c/exhibitions)

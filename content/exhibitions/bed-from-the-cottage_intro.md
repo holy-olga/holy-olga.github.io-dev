@@ -6,6 +6,6 @@
 
 <a href="/c/exhibitions/bed-from-the-cottage">
 
-![md.full](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_01.jpg)
+![_full](bed-from-the-cottage/kocsi_olga_agy_a_hazikobol_01.jpg)
 
 </a>

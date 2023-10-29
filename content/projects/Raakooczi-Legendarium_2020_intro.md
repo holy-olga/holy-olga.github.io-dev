@@ -3,6 +3,6 @@
 
 <a href="/c/projects/Raakooczi-Legendarium_2020">
 
-![md.full](Raakooczi-Legendarium_2020/003kocsi_olga_rakoczilenegdarium.jpg)
+![_full](Raakooczi-Legendarium_2020/003kocsi_olga_rakoczilenegdarium.jpg)
 
 </a>
