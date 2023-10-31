@@ -1,5 +1,5 @@
 <!-- {
-    "img": "VR-Lada_2017/VR_LADA_inside.jpg",
+    "img": "vr_lada-2017/VR_LADA_inside.jpg",
     "title": "VR LADA (2017 - 2019)",
     "desc": "Drive a LADA car in the hare universe"
 } -->
@@ -24,13 +24,13 @@ This project wouldn’t have been realized without the involvement of these expe
 
 <iframe full="true" src="https://player.vimeo.com/video/252032727?h=503a50e647" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-![_full](VR-Lada_2017/VR_LADA_inside.jpg)
-![_full](VR-Lada_2017/VR_LADA_Space.jpg)
-![_full](VR-Lada_2017/VR_LADA01.jpg)
-![_full](VR-Lada_2017/VR_LADA02b.jpg)
-![_full](VR-Lada_2017/VR_LADA03b.jpg)
-![_full](VR-Lada_2017/VR_LADA04.jpg)
-![_full](VR-Lada_2017/VR_LADA08.jpg)
+![_full](vr_lada-2017/VR_LADA_inside.jpg)
+![_full](vr_lada-2017/VR_LADA_Space.jpg)
+![_full](vr_lada-2017/VR_LADA01.jpg)
+![_full](vr_lada-2017/VR_LADA02b.jpg)
+![_full](vr_lada-2017/VR_LADA03b.jpg)
+![_full](vr_lada-2017/VR_LADA04.jpg)
+![_full](vr_lada-2017/VR_LADA08.jpg)
 
 ## Materials
 * LADA 2101 Car

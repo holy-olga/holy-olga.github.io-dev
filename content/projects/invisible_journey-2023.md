@@ -1,5 +1,5 @@
 <!-- {
-    "img": "projects/Invisible-Journey_2023/4G0A1740.JPG",
+    "img": "projects/invisible_journey-2023/4G0A1740.JPG",
     "title": "Invisible Journey (2023)",
     "desc": "A pilgrimage within myself: mapping the past."
 } -->
@@ -11,12 +11,12 @@ A pilgrimage within myself: mapping the past. I look back on my own life from th
 
 Material: UV paint, UV lamp, mirror box with sign.
 
-![_full](Invisible-Journey_2023/4G0A1740.JPG)
-![_full](Invisible-Journey_2023/DSC_9165.jpg)
+![_full](invisible_journey-2023/4G0A1740.JPG)
+![_full](invisible_journey-2023/DSC_9165.jpg)
 
 This project was exhibited together with
 
-* [Olga Kocsi as Holy Olga (2023)](/c/projects/OlgaKocsi-as-HolyOlga_2023)
-* [Rákospalota-Pannonhalma Pilgrimage 2023](/c/projects/Raakospalota-Pannonhalma-Pilgrimage_2023)
+* [Olga Kocsi as Holy Olga (2023)](/c/projects/olga_kocsi_as_holy_olga-2023)
+* [Rákospalota-Pannonhalma Pilgrimage 2023](/c/projects/raakospalota_pannonhalma_pilgrimage-2023)
 
 ## [Back to projects](/c/projects)

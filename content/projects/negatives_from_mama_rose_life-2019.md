@@ -1,5 +1,5 @@
 <!-- {
-    "img": "Negatives-from-Mama-Rose-Life_2019/3.webp",
+    "img": "negatives_from_mama_rose_life-2019/3.webp",
     "title": "Negatives from Mama Rose's life",
     "desc": "**{TODO: Generate description}**"
 } -->
@@ -14,42 +14,42 @@ I brought her dream to life: The walk of the sinister cat **{TODO: what is this 
 <span style="display: flex; flex-flow: row; justify-content: space-between; align-items: first baseline;">
 <span style="width: 48%">
 
-![_expand transform:'translateX(15%)' filter:'url(#cartoonWiggle)'](Negatives-from-Mama-Rose-Life_2019/cat_1.svg)
+![_expand transform:'translateX(15%)' filter:'url(#cartoonWiggle)'](negatives_from_mama_rose_life-2019/cat_1.svg)
 
 </span>
 <span style="width: 48%">
 
-![_expand transform:'translateX(-15%)' filter:'url(#cartoonWiggle)'](Negatives-from-Mama-Rose-Life_2019/cat_2.svg)
+![_expand transform:'translateX(-15%)' filter:'url(#cartoonWiggle)'](negatives_from_mama_rose_life-2019/cat_2.svg)
 
 </span>
 </span>
 
-![_full](Negatives-from-Mama-Rose-Life_2019/2.webp)
+![_full](negatives_from_mama_rose_life-2019/2.webp)
 
 <span class="mdWiderContent" style="display: flex; flex-flow: row; justify-content: space-between; align-items: first baseline;">
 <span style="width: 33%">
 
-![_expand transform:'translateX(15%)' filter:'url(#cartoonWiggle)'](Negatives-from-Mama-Rose-Life_2019/cat_3.svg)
+![_expand transform:'translateX(15%)' filter:'url(#cartoonWiggle)'](negatives_from_mama_rose_life-2019/cat_3.svg)
 
 </span>
 <span style="width: 33%">
 
-![_expand transform:'translateX(-15%)' filter:'url(#cartoonWiggle)'](Negatives-from-Mama-Rose-Life_2019/cat_4.svg)
+![_expand transform:'translateX(-15%)' filter:'url(#cartoonWiggle)'](negatives_from_mama_rose_life-2019/cat_4.svg)
 
 </span>
 <span style="width: 33%">
 
-![_expand transform:'translateX(10%)' filter:'url(#cartoonWiggle)'](Negatives-from-Mama-Rose-Life_2019/cat_5.svg)
+![_expand transform:'translateX(10%)' filter:'url(#cartoonWiggle)'](negatives_from_mama_rose_life-2019/cat_5.svg)
 
 </span>
 </span>
 
-![_full caption:'One day Pop-UP exhibition at CAPA Center. 2019'](Negatives-from-Mama-Rose-Life_2019/1.webp)
-![_full](Negatives-from-Mama-Rose-Life_2019/3.webp)
-![_full](Negatives-from-Mama-Rose-Life_2019/4.webp)
-![_full](Negatives-from-Mama-Rose-Life_2019/_rozsa.webp)
-![_full](Negatives-from-Mama-Rose-Life_2019/alom_kezfogas.webp)
-![_full](Negatives-from-Mama-Rose-Life_2019/cica_alom.webp)
-![_full](Negatives-from-Mama-Rose-Life_2019/korte.webp)
+![_full caption:'One day Pop-UP exhibition at CAPA Center. 2019'](negatives_from_mama_rose_life-2019/1.webp)
+![_full](negatives_from_mama_rose_life-2019/3.webp)
+![_full](negatives_from_mama_rose_life-2019/4.webp)
+![_full](negatives_from_mama_rose_life-2019/_rozsa.webp)
+![_full](negatives_from_mama_rose_life-2019/alom_kezfogas.webp)
+![_full](negatives_from_mama_rose_life-2019/cica_alom.webp)
+![_full](negatives_from_mama_rose_life-2019/korte.webp)
 
 ## [Back to projects](/c/projects)

@@ -1,21 +1,23 @@
-<nextmd href="/c/projects/szooenyegmintaaja_intro" ></nextmd>
+<nextmd href="/c/projects/szooenyegmintaaja-intro" ></nextmd>
 
-<nextmd href="/c/projects/OlgaKocsi-as-HolyOlga_2023_intro" ></nextmd>
+<nextmd href="/c/projects/olga_kocsi_as_holy_olga-2023-intro" ></nextmd>
 
-<nextmd href="/c/projects/Invisible-Journey_2023_intro" ></nextmd>
+<nextmd href="/c/projects/invisible_journey-2023-intro" ></nextmd>
 
-<nextmd href="/c/projects/Raakospalota-Pannonhalma-Pilgrimage_2023" ></nextmd>
+<nextmd href="/c/projects/raakospalota_pannonhalma_pilgrimage-2023" ></nextmd>
 
-<nextmd href="/c/projects/VR-Lada_2017_intro" ></nextmd>
+<nextmd href="/c/projects/vr_lada-2017-intro" ></nextmd>
 
-<nextmd href="/c/projects/Beton-Lada_2019_intro" ></nextmd>
+<nextmd href="/c/projects/beton_lada-2019-intro" ></nextmd>
 
-<nextmd href="/c/projects/Zoltai_2022_intro" ></nextmd>
+<nextmd href="/c/projects/zoltai-2022-intro" ></nextmd>
 
-<nextmd href="/c/projects/Olga-as-a-soldier-museum-guard_2022_intro" ></nextmd>
+<nextmd href="/c/projects/olga_as_a_soldier_museum_guard-2022-intro" ></nextmd>
 
-<nextmd href="/c/projects/Irma5Seconds_2021_intro" ></nextmd>
+<nextmd href="/c/projects/irma5seconds-2021-intro" ></nextmd>
 
-<nextmd href="/c/projects/Raakooczi-Legendarium_2020_intro" ></nextmd>
+<nextmd href="/c/projects/raakooczi_legendarium-2020-intro" ></nextmd>
 
-<nextmd href="/c/projects/Negatives-from-Mama-Rose-Life_2019_intro" ></nextmd>
+<nextmd href="/c/projects/negatives_from_mama_rose_life-2019-intro" ></nextmd>
+
+<nextmd href="/c/projects/change_of_scale-2009-intro" ></nextmd>
