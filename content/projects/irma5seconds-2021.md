@@ -70,8 +70,6 @@ Meeting of two Artists
 
 <cardlink href="https://www.godot.hu/kocsiolgaszaboeszteragnes-godot-katalizator-dij-heterotopia"></cardlink>
 
-[Kocsi Olga & Szabó Eszter Ágnes / Godot-Katalizator-díj / Heterotopia / Kiállítás - Godot](https://www.godot.hu/kocsiolgaszaboeszteragnes-godot-katalizator-dij-heterotopia)
-
 ![_full](irma5seconds-2021/irma_jelenes.jpg)
 
 ## [Back to projects](/c/projects)
