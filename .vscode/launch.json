@@ -7,6 +7,7 @@
             "runtimeArgs": [
                 "--remote-debugging-port=9222"
             ],
+            //"url": "http://localhost:3000/graph-test",
             "url": "http://localhost:3000/c/test",
             "presentation": {
                 "hidden": true
@@ -20,6 +21,7 @@
                 "--headless",
                 "--remote-debugging-port=9222"
             ],
+            //"url": "http://localhost:3000/graph-test",
             "url": "http://localhost:3000/c/test",
             "presentation": {
                 "hidden": true
@@ -29,6 +31,7 @@
             "type": "vscode-edge-devtools.debug",
             "name": "Open Edge DevTools",
             "request": "attach",
+            //"url": "http://localhost:3000/graph-test",
             "url": "http://localhost:3000/c/test",
             "presentation": {
                 "hidden": true

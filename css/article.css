@@ -73,3 +73,7 @@
     max-width: 90vw;
     background: linear-gradient(90deg, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
 }
+
+div.Image[style="background-image: url(\"localhost/img-placeholder.jpg\"), url(\"https://i.imgur.com/UeDNBNQ.jpeg\");"] {
+    display: none;
+}
