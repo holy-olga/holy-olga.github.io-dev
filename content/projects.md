@@ -18,6 +18,10 @@
 
 <nextmd href="/c/projects/raakooczi_legendarium-2020-intro" ></nextmd>
 
+<nextmd href="/c/projects/imprint_of_time-2009-2019-intro" ></nextmd>
+
 <nextmd href="/c/projects/negatives_from_mama_rose_life-2019-intro" ></nextmd>
 
 <nextmd href="/c/projects/change_of_scale-2009-intro" ></nextmd>
+
+<nextmd href="/c/projects/cabinet_from_the_cottage-2012-intro" ></nextmd>
