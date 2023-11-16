@@ -31,7 +31,7 @@
     background-color: white;
 }
 
-.md-full {
+.mdFull {
     position: relative;
     width: 100vw;
     max-width: none;
@@ -41,10 +41,10 @@
     overflow: clip;
 }
 
-.mdArticle .md-full:last-child {
+.mdArticle .mdFull:last-child {
     margin-bottom: calc(var(--emphasized-content-margin) - 10px);
 }
-.mdCaptionWrap .md-full {
+.mdCaptionWrap .mdFull {
     margin-bottom: revert !important;
 }
 
@@ -76,4 +76,16 @@
 
 div.Image[style="background-image: url(\"localhost/img-placeholder.jpg\"), url(\"https://i.imgur.com/UeDNBNQ.jpeg\");"] {
     display: none;
+}
+
+.mdNoGap * {
+    margin-bottom: 0px !important;
+}
+
+.mdNoGap p {
+    line-height: 0;
+}
+
+.mdNoGap {
+    margin-bottom: var(--p-margin);
 }

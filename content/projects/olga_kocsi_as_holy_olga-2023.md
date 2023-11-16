@@ -15,7 +15,7 @@ Olga Kocsi’s work is based on Csontváry’s Pilgrimage to the Cedars in Leban
 
 > Over the past century, countless interpretations have been given to Csontváry’s work: the painting is a hidden self-portrait or a world model. At the same time, it has become a part of our popular culture over the past sixty years: its spirituality as a poster, as a visual commonplace, has faded. Olga Kocsi’s work – the center of which is not only herself, but also the image of one of the millennium pines in Pannonhalma, which dried up due to climate change – appropriates the painting and fills the areas between reality and fiction, the Self, kitsch and art.
 
-<span style="display: flex; flex-direction: column; align-items: flex-end">
+<span class="mdTextAlign-right">
 
 József Mélyi
 

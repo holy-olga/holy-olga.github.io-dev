@@ -77,8 +77,7 @@
 ## [Artist Teacher Portfolio here](https://issuu.com/heldin/docs/kocsi_olga_portfolio_tanar_kicsi_ma)
 <br>
 
-## [Appearances in Press here](/c/press)
-<!-- <nextmd href="/c/press"> -->
+## [Appearances in Press](/c/press)
 
 ### Contacts:
 

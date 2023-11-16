@@ -10,12 +10,12 @@
     min-height: 400px;
 }
 
-.pdfRoot.md-full {
+.pdfRoot.mdFull {
     overflow: visible;
 }
 
 @media (min-aspect-ratio: 1/1) {
-    .pdfRoot.md-full {
+    .pdfRoot.mdFull {
         height: calc(100vh - 150px);
     }
 }

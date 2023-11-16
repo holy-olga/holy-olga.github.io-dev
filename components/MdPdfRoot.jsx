@@ -16,7 +16,7 @@ export default class MdPdfRoot extends React.Component {
     }
 
     render() {
-        let rootClass="pdfRoot" + (this.isFull() ? " md-full" : "");
+        let rootClass="pdfRoot" + (this.isFull() ? " mdFull" : "");
         return (
             <div className={rootClass}>
                 <DisableWhileResizing>

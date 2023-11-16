@@ -27,7 +27,7 @@ export default class MdFullParallaxWrap extends React.Component {
 
         if (this.props.noblur) {
             return (
-                <div ref={this.mainDiv} className="md-full" style={{
+                <div ref={this.mainDiv} className="mdFull" style={{
                     backgroundColor: "black",
                 }}>
                     <div ref={this.mainContent} {...optionals}>
@@ -52,7 +52,7 @@ export default class MdFullParallaxWrap extends React.Component {
             }
         );
         return (
-            <div ref={this.mainDiv} className="md-full" style={{
+            <div ref={this.mainDiv} className="mdFull" style={{
                 backgroundColor: "black",
             }}>
                 {blurredChildren}
