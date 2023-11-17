@@ -1,5 +1,6 @@
 {
   "name": "echweb-shared",
+  "type": "module",
   "version": "5.0.0",
   "author": "David Morasz <_@mcro.de>",
   "license": "Private use, no reuse allowed",

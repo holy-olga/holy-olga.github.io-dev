@@ -1,8 +1,10 @@
-let constants = require("./Constants.js");
+import Constants from "./Constants"
 
-export default Parameters = {
-    constants: constants,
+const Parameters = {
+    constants: Constants,
     header: {
         name: constants.globalTitle
     }
-}
+};
+
+export default Parameters;

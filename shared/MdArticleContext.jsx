@@ -1,6 +1,7 @@
 import { createContext } from 'react';
 
-export default PathContext = createContext({
+const PathContext = createContext({
     webPath: '',
     filePath: ''
 });
+export default PathContext;
