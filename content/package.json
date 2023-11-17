@@ -11,6 +11,8 @@
     "3d-force-graph": "^1.72.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
     "three": "^0.155.0",
     "three-spritetext": "^1.8.1",
     "vivus": "^0.4.6",

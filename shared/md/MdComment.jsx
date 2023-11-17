@@ -1,6 +1,7 @@
 import React from 'react';
 import MdComment from '../MdComment';
 import PathContext from '../MdArticleContext';
+import Utils from '../Utils';
 
 export default function MdCommentExt(props)
 {
@@ -8,5 +9,5 @@ export default function MdCommentExt(props)
     return <MdComment term={path.webPath} />;
 }
 
-window.mdExtensions.commentmd = MdCommentExt;
-window.mdExtensions.mdcomment = MdCommentExt;
+Utils.mdExt.commentmd = MdCommentExt;
+Utils.mdExt.mdcomment = MdCommentExt;

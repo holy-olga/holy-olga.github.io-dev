@@ -1,5 +1,6 @@
 import React from 'react';
 import CodeBlock from '../Codeblock';
+import Utils from '../Utils';
 
 export default function CodeExt(props)
 {
@@ -12,4 +13,4 @@ export default function CodeExt(props)
     )
 }
 
-window.mdExtensions.code = CodeExt;
+Utils.mdExt.code = CodeExt;

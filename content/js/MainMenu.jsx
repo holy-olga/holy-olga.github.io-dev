@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Gh1, Gh2} from './Gh';
+import {Gh1, Gh2} from 'echweb-shared/Gh';
 
 export default class MainMenu extends React.Component {
     render() {

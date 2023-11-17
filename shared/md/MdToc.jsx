@@ -39,5 +39,5 @@ export default function MdTocExt(props)
     )
 }
 
-window.mdExtensions.tocmd = MdTocExt;
-window.mdExtensions.mdtoc = MdTocExt;
+Utils.mdExt.tocmd = MdTocExt;
+Utils.mdExt.mdtoc = MdTocExt;

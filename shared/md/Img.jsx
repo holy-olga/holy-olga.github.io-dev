@@ -1,6 +1,7 @@
 import React from 'react';
 import MdLazyLoad from '../MdLazyLoad';
 import MdImg from '../MdImg';
+import Utils from '../Utils';
 
 export default function ImgExt(props)
 {
@@ -9,4 +10,4 @@ export default function ImgExt(props)
     </MdLazyLoad>
 }
 
-window.mdExtensions.img = ImgExt;
+Utils.mdExt.img = ImgExt;

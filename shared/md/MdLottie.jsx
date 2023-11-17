@@ -3,6 +3,7 @@ import MdLazyLoad from '../MdLazyLoad';
 import { MdLinkHandler, GetMdUrl } from '../MdLinkHandler';
 import {Gh1, Gh2} from '../Gh';
 import MdLottie from '../MdLottie';
+import Utils from '../Utils';
 
 export default function MdLottieExt(props)
 {
@@ -19,5 +20,5 @@ export default function MdLottieExt(props)
     )
 }
 
-window.mdExtensions.lottiemd = MdLottieExt;
-window.mdExtensions.mdlottie = MdLottieExt;
+Utils.mdExt.lottiemd = MdLottieExt;
+Utils.mdExt.mdlottie = MdLottieExt;

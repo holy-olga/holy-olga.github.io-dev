@@ -3,7 +3,7 @@ import Constants from "./Constants"
 const Parameters = {
     constants: Constants,
     header: {
-        name: constants.globalTitle
+        name: Constants.globalTitle
     }
 };
 

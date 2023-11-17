@@ -2,6 +2,7 @@ import React from 'react';
 import MdLazyLoad from 'echweb-shared/MdLazyLoad';
 import DisableWhileResizing from 'echweb-shared/DisableWhileResizing';
 import IrmaGraph from '../IrmaGraph/Render';
+import Utils from 'echweb-shared/Utils';
 
 export default function IrmaGraphExt(props)
 {
@@ -14,4 +15,4 @@ export default function IrmaGraphExt(props)
     )
 }
 
-window.mdExtensions.irmagraph = IrmaGraphExt;
+Utils.mdExt.irmagraph = IrmaGraphExt;

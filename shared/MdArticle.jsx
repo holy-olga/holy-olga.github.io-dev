@@ -6,6 +6,7 @@ import rehypeRaw from 'rehype-raw';
 import { useLocation } from 'react-router-dom';
 import {Gh1} from './Gh';
 import PathContext from './MdArticleContext';
+import Utils from './Utils';
 
 export default class MdArticle extends React.Component {
     constructor(props) {
@@ -114,10 +115,10 @@ export default class MdArticle extends React.Component {
                             allowElement={() => true}
                             remarkPlugins={[remarkGfm]}
                             rehypePlugins={[rehypeRaw]}
-                            components={{ ...window.mdExtensions }}
+                            components={{ ...Utils.mdExt }}
 
-                            transformLinkUri={((uri) => trLinkUri(uri, this.props.path)).bind(this)}
-                            transformImageUri={((uri) => trImageUri(uri, this.getRealMdPath())).bind(this)}
+                            transformLinkUri={((uri) => Utils.trLinkUri(uri, this.props.path)).bind(this)}
+                            transformImageUri={((uri) => Utils.trLinkUri(uri, this.getRealMdPath())).bind(this)}
                         >
                             {this.state.mdText}
                         </ReactMarkdown>

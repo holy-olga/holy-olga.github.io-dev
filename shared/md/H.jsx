@@ -27,9 +27,9 @@ export default function HExt(props)
     )
 }
 
-window.mdExtensions.h1 = HExt;
-window.mdExtensions.h2 = HExt;
-window.mdExtensions.h3 = HExt;
-window.mdExtensions.h4 = HExt;
-window.mdExtensions.h5 = HExt;
-window.mdExtensions.h6 = HExt;
+Utils.mdExt.h1 = HExt;
+Utils.mdExt.h2 = HExt;
+Utils.mdExt.h3 = HExt;
+Utils.mdExt.h4 = HExt;
+Utils.mdExt.h5 = HExt;
+Utils.mdExt.h6 = HExt;

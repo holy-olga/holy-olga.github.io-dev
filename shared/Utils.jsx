@@ -15,7 +15,9 @@ const Utils = {
             let base = new URL(path, window.origin);
             return new URL(uri, base.href).href;
         }
-    }
+    },
+
+    mdExt: {}
 }
 
 export default Utils;

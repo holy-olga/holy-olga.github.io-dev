@@ -2,6 +2,7 @@ import React from 'react';
 import MdLazyLoad from '../MdLazyLoad';
 import { MdLinkHandler, GetMdUrl } from '../MdLinkHandler';
 import MdCompare from '../MdCompare';
+import Utils from '../Utils';
 
 export default function MdCompareExt(props)
 {
@@ -17,5 +18,5 @@ export default function MdCompareExt(props)
     );
 }
 
-window.mdExtensions.comparemd = MdCompareExt;
-window.mdExtensions.mdcompare = MdCompareExt;
+Utils.mdExt.comparemd = MdCompareExt;
+Utils.mdExt.mdcompare = MdCompareExt;

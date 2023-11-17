@@ -12,7 +12,7 @@ console.log("Preparing templated files");
 let globOptions = {
     absolute: false,
     nodir: true,
-    ignore: "node_modules"
+    ignore: "**/node_modules/**"
 }
 
 let files = globSync('./templates/**/*', globOptions)

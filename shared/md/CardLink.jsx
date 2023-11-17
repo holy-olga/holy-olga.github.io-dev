@@ -1,6 +1,7 @@
 import React from 'react';
 import MdLazyLoad from '../MdLazyLoad';
 import { LinkPreview } from '@dhaiwat10/react-link-preview';
+import Utils from '../Utils';
 
 export default function CardLinkExt(props)
 {
@@ -43,5 +44,5 @@ export default function CardLinkExt(props)
     </MdLazyLoad>
 }
 
-window.mdExtensions.cardlink = CardLinkExt;
-window.mdExtensions.linkcard = CardLinkExt;
+Utils.mdExt.cardlink = CardLinkExt;
+Utils.mdExt.linkcard = CardLinkExt;

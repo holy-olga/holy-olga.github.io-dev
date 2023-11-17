@@ -2,7 +2,8 @@ import React from 'react';
 import MdLazyLoad from '../MdLazyLoad';
 import { MdLinkHandler, GetMdUrl } from '../MdLinkHandler';
 import {Gh1, Gh2} from '../Gh';
-import MdPdf from '../MdPdf';
+import MdPdfRoot from '../MdPdfRoot';
+import Utils from '../Utils';
 
 export default function MdPdfExt(props)
 {
@@ -19,5 +20,5 @@ export default function MdPdfExt(props)
     )
 }
 
-window.mdExtensions.pdfmd = MdPdfExt;
-window.mdExtensions.mdpdf = MdPdfExt;
+Utils.mdExt.pdfmd = MdPdfExt;
+Utils.mdExt.mdpdf = MdPdfExt;

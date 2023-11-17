@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import MainMenu from './MainMenu';
+import MainMenu from 'echweb-content/js/MainMenu';
 import Logo from 'echweb-content/js/Logo';
 import SvgFilters from 'echweb-shared/SvgFilters';
 import MainScrollbar from './MainScrollbar';
