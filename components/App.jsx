@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MainMenu from './MainMenu';
-import Logo from './Logo';
+import Logo from 'echweb-content/js/Logo';
+import SvgFilters from 'echweb-shared/SvgFilters';
 import MainScrollbar from './MainScrollbar';
-import SvgFilters from './SvgFilters';
 
 export default class App extends React.Component {
     constructor(props) {
@@ -19,7 +19,7 @@ export default class App extends React.Component {
                 {intro ? <Logo /> : <div style={{display: "none"}} />}
                 {intro ? <></> : <h1
                     className="h0"
-                    id="mcrode"
+                    id="mainHead"
                     style={{
                         marginTop: "0px",
                         marginBottom: "-10px"

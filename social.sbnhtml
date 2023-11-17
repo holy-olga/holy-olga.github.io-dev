@@ -6,7 +6,7 @@
     <meta name="description" content="{{ desc }}">
 
     <meta property="og:title" content="{{ title }}">
-    <meta property="og:site_name" content="Kocsi Olga">
+    <meta property="og:site_name" content="{{ globalTitle }}">
     <meta property="og:image" content="https://{{ domain }}/content/{{ img }}">
     <meta property="og:description" content="{{ desc }}">
     <meta property="og:url" content="https://{{ domain }}{{ path }}">
