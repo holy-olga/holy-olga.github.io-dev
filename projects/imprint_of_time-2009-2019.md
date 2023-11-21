@@ -27,7 +27,7 @@ Abigél Végh
 
 </span>
 
-![_full caption:'detail of the glass composition'](imprint_of_time-2009-2019/_MG_6610.webp)
+![_full caption:'detail of the glass composition'](imprint_of_time-2009-2019/MG_6610.webp)
 
 ## Concept
 
@@ -55,7 +55,7 @@ The photograph documents the action and the space in which the action took place
 
 The similarity of the figures on the image and its monochrome nature made it easier for me to imagine the creation of this work using a single figure, coupled with time and space. The movement of the men floated in front of me like a dance. Dancing a composition, recreating its movements, bringing it to life, promised to be an exciting task. The creation of the image closely involved the use of the processes mentioned.
 
-![_full](imprint_of_time-2009-2019/_MG_6564_.webp)
+![_full](imprint_of_time-2009-2019/MG_6564_.webp)
 
 I printed a digitally assembled photograph onto layers of glass. The figures present the composition through twenty layers of glass stacked on top of each other, in the order of the movement. Twenty sheets of glass measuring 3mm per layer turns into a 6 cm deep object.
 
@@ -112,13 +112,13 @@ There are plans to involve a contemporary composer in future, with whom a musica
 </span>
 
 ## Glass Photography
-![_expand](imprint_of_time-2009-2019/_MG_6606_.webp)
-![_expand](imprint_of_time-2009-2019/_MG_6578_.webp)
-![_full caption:'glass object from below view'](imprint_of_time-2009-2019/_MG_6638_.webp)
-![_full](imprint_of_time-2009-2019/_MG_6551_.webp)
-![_full caption:'glass object^'s shadow on the ceiling' transform:'rotate(180deg)'](imprint_of_time-2009-2019/_MG_6559_.webp)
-![_full caption:'glass object^'s shadow on the floor'](imprint_of_time-2009-2019/_MG_6569_.webp)
-![_full caption:'16-24.10.2019. FKSE Studió Gallery, Budapest'](imprint_of_time-2009-2019/_MG_6614__.webp)
-![_full caption:'Curator: Abigél Végh'](imprint_of_time-2009-2019/_MG_6597__.webp)
+![_expand](imprint_of_time-2009-2019/MG_6606_.webp)
+![_expand](imprint_of_time-2009-2019/MG_6578_.webp)
+![_full caption:'glass object from below view'](imprint_of_time-2009-2019/MG_6638_.webp)
+![_full](imprint_of_time-2009-2019/MG_6551_.webp)
+![_full caption:'glass object^'s shadow on the ceiling' transform:'rotate(180deg)'](imprint_of_time-2009-2019/MG_6559_.webp)
+![_full caption:'glass object^'s shadow on the floor'](imprint_of_time-2009-2019/MG_6569_.webp)
+![_full caption:'16-24.10.2019. FKSE Studió Gallery, Budapest'](imprint_of_time-2009-2019/MG_6614__.webp)
+![_full caption:'Curator: Abigél Végh'](imprint_of_time-2009-2019/MG_6597__.webp)
 
 ## [Back to projects](/c/projects)
