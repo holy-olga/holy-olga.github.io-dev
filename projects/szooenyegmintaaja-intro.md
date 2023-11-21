@@ -2,6 +2,6 @@
 
 <a href="/c/projects/szooenyegmintaaja">
 
-![_full noBlur](szooenyegmintaaja/_hero.png)
+![_full noBlur](szooenyegmintaaja/hero.png)
 
 </a>

@@ -4,7 +4,7 @@ import {Gh1, Gh2} from 'echweb-shared/Gh';
 
 export default class MainMenu extends React.Component {
     render() {
-        return ( <div id="mainMenu">
+        return <div id="mainMenu">
             <div className="cover">
             </div>
             <div className="flexing">
@@ -24,6 +24,6 @@ export default class MainMenu extends React.Component {
                     <Link to="/c/cv">CV</Link>
                 </Gh2>
             </div>
-        </div> )
+        </div>
     }
 }

@@ -3,6 +3,6 @@
 
 <a href="/c/projects/imprint_of_time-2009-2019">
 
-![_full](imprint_of_time-2009-2019/_MG_6610.webp)
+![_full](imprint_of_time-2009-2019/MG_6610.webp)
 
 </a>

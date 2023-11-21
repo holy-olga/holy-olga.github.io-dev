@@ -9,7 +9,7 @@
 Collaboration with *Eszter Ágnes Szabó* [@](https://secondaryarchive.org/artists/eszter-agnes-szabo/) [@](https://www.ludwigmuseum.hu/alkoto/szabo-eszter-agnes)  
 2021 - Ongoing
 
-![_parallax(side)](irma5seconds-2021/____kave.jpg)
+![_parallax(side)](irma5seconds-2021/kave.jpg)
 
 Scientists have experimentally proven that food immediately becomes dirty as soon as it hits the ground, and microorganisms wait no time. If you drop a bun in water, it gets wet right away; if you drop it into mud, it’s instantly covered in mud. Why would it happen otherwise when it comes to dirt? In fact, we want to believe that food can be recovered.
 
@@ -23,8 +23,8 @@ It is her character that we are working on.
 
 ![_full caption:'interior at Godot Gallery, Budapest, 2022'](irma5seconds-2021/oltar.jpg)
 ![_expand](irma5seconds-2021/godot_irmaszekreny_.jpg)
-![_full](irma5seconds-2021/___krumpli.jpg)
-![_full](irma5seconds-2021/____rizslap.jpg)
+![_full](irma5seconds-2021/krumpli.jpg)
+![_full](irma5seconds-2021/rizslap.jpg)
 ![_parallax(side)](irma5seconds-2021/fagyi_11.jpg)
 ![_expand](irma5seconds-2021/irma_capa_2022__.jpg)
 ![_full caption:'Let’s EAT exhibition CAPA CENTER, 2021.10. 01-16'](irma5seconds-2021/letseat-enterior-30.exact1980w.jpg)
@@ -42,7 +42,7 @@ weight: 24kg
 ![_expand](irma5seconds-2021/vizitacio.jpg)
 ![_full caption:'shrine for fallen morsels'](irma5seconds-2021/epoxy_tartoban.jpg)
 ![_expand](irma5seconds-2021/Untitled-2.jpg)
-![_expand](irma5seconds-2021/_MG_9432.jpg)
+![_expand](irma5seconds-2021/MG_9432.jpg)
 
 ## Visitatio
 Meeting of two Artists

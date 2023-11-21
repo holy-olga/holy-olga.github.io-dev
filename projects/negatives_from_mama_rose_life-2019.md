@@ -47,7 +47,7 @@ I brought her dream to life: The walk of the sinister cat **{TODO: what is this 
 ![_full caption:'One day Pop-UP exhibition at CAPA Center. 2019'](negatives_from_mama_rose_life-2019/1.webp)
 ![_full](negatives_from_mama_rose_life-2019/3.webp)
 ![_full](negatives_from_mama_rose_life-2019/4.webp)
-![_full](negatives_from_mama_rose_life-2019/_rozsa.webp)
+![_full](negatives_from_mama_rose_life-2019/rozsa.webp)
 ![_full](negatives_from_mama_rose_life-2019/alom_kezfogas.webp)
 ![_full](negatives_from_mama_rose_life-2019/cica_alom.webp)
 ![_full](negatives_from_mama_rose_life-2019/korte.webp)

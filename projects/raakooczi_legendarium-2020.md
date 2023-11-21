@@ -253,7 +253,7 @@ De a nők, nem tudom jól kifejezni, hogyan... nincs gyerekem. Szerintem sok nő
 </span>
 
 ![_full caption:'ISBN Book+Gallery, 2020'](raakooczi_legendarium-2020/010kocsi_olga_rakoczilenegdarium.jpg)
-![_full](raakooczi_legendarium-2020/_MG_8042.jpg)
+![_full](raakooczi_legendarium-2020/MG_8042.jpg)
 
 # TODO: PRESS
 
