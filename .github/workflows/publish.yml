@@ -1,0 +1,24 @@
+name: Publish nyulga.com
+run-name: ${{ github.actor }} Publishing nyulga.com
+on:
+  push:
+    branches:
+      - master
+  workflow_call:
+    secrets:
+      NYULGA_DEPLOY_TOKEN:
+        required: true
+jobs:
+  publish:
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: read
+    uses: microdee/echweb/.github/workflows/publish-site.yml@master
+    with:
+      content-repo: holy-olga/holy-olga.github.io-dev
+      target-repo: holy-olga/holy-olga.github.io
+      target-domain: nyulga.com
+      target-domain_var: nyulga_com
+    secrets:
+      PAGES_DEPLOY_TOKEN: "${{ secrets.NYULGA_DEPLOY_TOKEN }}"
