@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import {Gh1, Gh2} from 'echweb-shared/Gh';
+import { A } from 'echweb-shared/hookrouter';
 
 export default class MainMenu extends React.Component {
     render() {
@@ -8,21 +7,21 @@ export default class MainMenu extends React.Component {
             <div className="cover">
             </div>
             <div className="flexing">
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <Link to="/c/news">News</Link>
-                </Gh2>
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <Link to="/c/projects">Projects</Link>
-                </Gh2>
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <Link to="/c/exhibitions">Exhibitions</Link>
-                </Gh2>
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <Link to="/c/misc">Misc</Link>
-                </Gh2>
-                <Gh2 onlyhover glitchtype="1" className="menuItem">
-                    <Link to="/c/cv">CV</Link>
-                </Gh2>
+                <h2 className="menuItem">
+                    <A href="/c/news">News</A>
+                </h2>
+                <h2 className="menuItem">
+                    <A href="/c/projects">Projects</A>
+                </h2>
+                <h2 className="menuItem">
+                    <A href="/c/exhibitions">Exhibitions</A>
+                </h2>
+                <h2 className="menuItem">
+                    <A href="/c/misc">Misc</A>
+                </h2>
+                <h2 className="menuItem">
+                    <A href="/c/cv">CV</A>
+                </h2>
             </div>
         </div>
     }
