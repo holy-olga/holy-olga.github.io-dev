@@ -13,7 +13,7 @@ export default function IrmaGraphExt(props)
                 <div className="importFallback"><h1 className="glitch big digital">♾️</h1></div>
             }>
                 <DisableWhileResizing>
-                    <IrmaGraph />
+                    <IrmaGraph className="mdFull"/>
                 </DisableWhileResizing>
             </React.Suspense>
         </MdLazyLoad>

@@ -211,7 +211,7 @@ export default class IrmaGraph extends React.Component {
         return (
             <div
                 ref={this.mainDiv}
-                className='mdFull'
+                className={this.props.className}
                 onWheel={e => {
                     if (!e.ctrlKey) {
                         this.graph.enableNavigationControls(false);
