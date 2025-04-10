@@ -102,13 +102,15 @@ export default class IrmaGraph extends React.Component {
                         let aspY = h > w ? h / w : 1;
                         targetSprite.scale.set(scale * aspX, scale * aspY);
                     });
+                    
                     texture.minFilter = THREE.LinearFilter;
                     texture.maxFilter = THREE.LinearFilter;
                     texture.generateMipmaps = false;
                     texture.colorSpace = THREE.SRGBColorSpace;
 
                     const material = new THREE.SpriteMaterial({
-                        map: texture
+                        map: texture,
+                        transparent: false
                     });
                     const sprite = new THREE.Sprite(material);
                     sprite.scale.set(scale, scale);
@@ -153,7 +155,7 @@ export default class IrmaGraph extends React.Component {
 
                 hoverNode = node || null;
 
-                this.updateHighlight();
+                // this.updateHighlight();
             })
             .onLinkHover(link => {
                 highlightNodes.clear();
@@ -165,7 +167,7 @@ export default class IrmaGraph extends React.Component {
                     highlightNodes.add(link.target);
                 }
 
-                this.updateHighlight();
+                // this.updateHighlight();
             });
 
         const distance = 650;
