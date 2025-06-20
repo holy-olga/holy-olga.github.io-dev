@@ -7,21 +7,12 @@ export default class MainMenu extends React.Component {
             <div className="cover">
             </div>
             <div className="flexing">
-                <h2 className="menuItem">
-                    <A href="/c/news">News</A>
-                </h2>
-                <h2 className="menuItem">
-                    <A href="/c/projects">Projects</A>
-                </h2>
-                <h2 className="menuItem">
-                    <A href="/c/exhibitions">Exhibitions</A>
-                </h2>
-                <h2 className="menuItem">
-                    <A href="/c/misc">Misc</A>
-                </h2>
-                <h2 className="menuItem">
+                <h3 className="menuItem">
+                    <A href="/c/art">Art</A>
+                </h3>
+                <h3 className="menuItem">
                     <A href="/c/cv">CV</A>
-                </h2>
+                </h3>
             </div>
         </div>
     }

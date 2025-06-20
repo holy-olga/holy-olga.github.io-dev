@@ -1,1 +1,0 @@
-<nextmd href="/c/exhibitions/bed_from_the_cottage-intro" ></nextmd>

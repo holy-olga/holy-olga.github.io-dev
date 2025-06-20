@@ -16,7 +16,7 @@ This text says <span style="color: pink; text-shadow: 0px 0px 20px red; display:
 
 <mdpdf href="cv2023_eng.pdf" cover="true"></mdpdf>
 <mdpdf href="test.pdf" mergedpairs="true"></mdpdf>
-<mdpdf href="projects/133rd-story/2024.pdf" cover="true" mergedpairs="true" full="true"></mdpdf>
+<mdpdf href="art/133rd-story/2024.pdf" cover="true" mergedpairs="true" full="true"></mdpdf>
 <mdpdf href="nonono.pdf" mergedpairs="true" full="true"></mdpdf>
 
 ## Testing pictures
@@ -99,7 +99,7 @@ Some paragraph right after iframes.
 
 
 **Note:** This document is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
+can [see the source for it by adding '.text' to the URL](/art/markdown/syntax.text).
 
 ----
 
