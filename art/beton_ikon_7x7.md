@@ -53,7 +53,7 @@ They are the artifacts of an imagined, lost personal creed. A private mythology 
 
 In private collection of **[HAB Hungarian Art and Business](https://arthab.hu/en/about/)** ([exact programme](https://arthab.hu/osztondij/)).
 
-Many thanks for **[VPI Conrete Design Manufacture Kft.](https://vpi.hu/en/)** helping us with the manufacturing. Special thanks for **Péter István Varga**. Together we developed a custom pigment embedding method for this artwork where the image is disolved into the concrete during its development. This was only possible with the signature unparalleled quality concrete mixture **VPI** is also known for.
+Many thanks for **[VPI Concrete Design Manufacture Kft.](https://vpi.hu/en/)** helping us with the manufacturing. Special thanks for **Péter István Varga**. Together we developed a custom pigment embedding method for this artwork where the image is dissolved into the concrete during its development. This was only possible with the signature unparalleled quality concrete mixture **VPI** is also known for.
 
 ![_parallax(side)](beton_ikon_7x7/8.webp)
 
