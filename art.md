@@ -1,3 +1,5 @@
+<nextmd href="/c/art/beton_ikon_7x7-intro" ></nextmd>
+
 <nextmd href="/c/art/szooenyegmintaaja-intro" ></nextmd>
 
 <nextmd href="/c/art/olga_kocsi_as_holy_olga-2023-intro" ></nextmd>
