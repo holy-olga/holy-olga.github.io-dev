@@ -1,5 +1,15 @@
 &nbsp;
 
+<cardlink href="https://nepszava.hu/3273176_holy-olga-gloriai"></cardlink>
+
+<cardlink href="https://www.glamour.hu/plusz/aktualis/kocsi-olga-interju/q94mwzk"></cardlink>
+
+<cardlink href="https://kultura.hu/kocsi-olga-nyerte-el-a-hab-dijat/"></cardlink>
+
+<cardlink href="https://woohoo.hu/kihirdette-a-hab-dij-nyerteset-az-mbh-bank-muveszeti-alapitvany/"></cardlink>
+
+<cardlink href="https://magyarnemzet.hu/kultura/2024/03/hab-dij-2024"></cardlink>
+
 <cardlink href="https://www.godot.hu/kocsiolgaszaboeszteragnes-godot-katalizator-dij-heterotopia"></cardlink>
 
 <cardlink href="https://artportal.hu/magazin/aldott-ladakat-moma-ba/"></cardlink>
