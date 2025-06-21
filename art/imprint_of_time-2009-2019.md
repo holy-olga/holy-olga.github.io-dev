@@ -1,7 +1,7 @@
 <!-- {
-    "img": "zoltai-2022/zoltai02.jpg",
-    "title": "The Patron Saint of Fallen morsels (2021)",
-    "desc": "Collaboration with Eszter Ágnes Szabó"
+    "img": "imprint_of_time-2009-2019/tanc_04_.webp",
+    "title": "Imprint of Time",
+    "desc": "The movement in front of the lens - which we see as a human movement - is displayed by the camera as an interesting abstract stripe, when using a long exposure. Because of the continuous movement, the light itself does not appear as a dot, but rather shows the walk as a moving composition."
 } -->
 
 # Imprint of Time

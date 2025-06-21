@@ -1,5 +1,5 @@
 <!-- {
-    "img": "zoltai-2022/zoltai02.jpg",
+    "img": "irma5seconds-2021/letseat-enterior-30.exact1980w.jpg",
     "title": "The Patron Saint of Fallen morsels (2021)",
     "desc": "Collaboration with Eszter Ágnes Szabó"
 } -->
