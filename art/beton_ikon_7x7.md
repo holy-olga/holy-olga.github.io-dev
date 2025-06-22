@@ -24,6 +24,8 @@ The motif of the three rabbits has a special symbolism. Its origins date back to
 
 They are the artifacts of an imagined, lost personal creed. A private mythology as an origin story. Explanation to everything where 42 in this case is 49.
 
+<mdcaption text="Middle row of icons (scroll horizontally)">
+
 <span class="mdFull mdNoGap" style="display: inline-block; overflow: auto">
 
 <span style="display: grid; grid: repeat(1, auto) / repeat(7, 1fr); width: 233vw">
@@ -46,6 +48,8 @@ They are the artifacts of an imagined, lost personal creed. A private mythology 
 
 </span>
 
+</mdcaption>
+
 ![_full parallax(coeff:1)](beton_ikon_7x7/3.webp)
 ![_full parallax(coeff:1)](beton_ikon_7x7/4.webp)
 ![_full parallax(coeff:1)](beton_ikon_7x7/5.webp)
@@ -57,13 +61,21 @@ Many thanks for **[VPI Concrete Design Manufacture Kft.](https://vpi.hu/en/)** h
 
 ![_parallax(side)](beton_ikon_7x7/8.webp)
 
+<mdcaption text="Icon in the making" nomargin="true">
+
 ![_expand](beton_ikon_7x7/7.webp)
 ![_expand](beton_ikon_7x7/9.webp)
 
+</mdcaption>
+
 ![_parallax(side)](beton_ikon_7x7/11.webp)
+
+<mdcaption text="HAB vernissage" nomargin="true">
 
 ![_expand](beton_ikon_7x7/12.webp)
 ![_expand](beton_ikon_7x7/13.webp)
+
+</mdcaption>
 
 ## Press
 
