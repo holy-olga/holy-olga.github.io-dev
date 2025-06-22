@@ -237,7 +237,7 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 |                 **János Bali** | composer, conductor     | flute playing                      |
 |                **Ádám Czirák** | theatre critic, masseur | back massage                       |
 | **Hanna Csaby-Csépke and Mór** | mother and son          | family interaction - breastfeeding |
-|       **Sándor Csaby and Mór** | father and son          | family interaction – swinging      |
+|       **Sándor Csaby and Mór** | father and son          | family interaction - swinging      |
 |                  **Tamás Don** | curator                 | curating                           |
 |                **Anikó Illés** | research psychologist   | cooking tuna pasta                 |
 |               **Csaba Hruska** | programmer              | programming                        |
@@ -291,11 +291,11 @@ A continuation of Invisible Work which invites exhibition guests to form their o
 
 ![_parallax(side)](invisible_work/tin-1.webp)
 
-**Invisible Work – Try It Now**, I blend art with state-of-the-art technology to illuminate the unseen labor that underpins our everyday lives. Utilizing three Kinect Azure sensors, the installation captures and tracks viewers’ full-body movements in real time. As participants engage in simple tasks like mopping the floor, their motions are transformed into dynamic, sculptural projections on the surrounding walls. These 3D body stamps not only visualize the choreography of daily actions but also invite viewers to reflect on the hidden efforts that sustain our communities.
+**Invisible Work - Try It Now**, I blend art with state-of-the-art technology to illuminate the unseen labor that underpins our everyday lives. Utilizing three Kinect Azure sensors, the installation captures and tracks viewers’ full-body movements in real time. As participants engage in simple tasks like mopping the floor, their motions are transformed into dynamic, sculptural projections on the surrounding walls. These 3D body stamps not only visualize the choreography of daily actions but also invite viewers to reflect on the hidden efforts that sustain our communities.
 
-Building on my previous research into the performativity of documentation and the interplay between body, space, and time, this interactive installation offers an immersive experience where technology and art converge. By making the invisible visible, Invisible Work – Try It Now highlights the significance of mundane activities and fosters a deeper appreciation for the roles they play in our collective existence. The project challenges viewers to recognize and value the fundamental, often overlooked tasks that maintain the fabric of our social and personal lives, creating a continuous dialogue between the performer and the observer.
+Building on my previous research into the performativity of documentation and the interplay between body, space, and time, this interactive installation offers an immersive experience where technology and art converge. By making the invisible visible, Invisible Work - Try It Now highlights the significance of mundane activities and fosters a deeper appreciation for the roles they play in our collective existence. The project challenges viewers to recognize and value the fundamental, often overlooked tasks that maintain the fabric of our social and personal lives, creating a continuous dialogue between the performer and the observer.
 
-**Invisible Work – Try It Now** is an exploration of how everyday gestures can be elevated to artistic expressions, emphasizing the profound impact of what is typically unseen.
+**Invisible Work - Try It Now** is an exploration of how everyday gestures can be elevated to artistic expressions, emphasizing the profound impact of what is typically unseen.
 
 ![_expand](invisible_work/tin-5.webp)
 
