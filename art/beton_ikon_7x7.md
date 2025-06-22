@@ -24,6 +24,8 @@ The motif of the three rabbits has a special symbolism. Its origins date back to
 
 They are the artifacts of an imagined, lost personal creed. A private mythology as an origin story. Explanation to everything where 42 in this case is 49.
 
+<llctxregion width="0px" height="0px">
+
 <mdcaption text="Middle row of icons (scroll horizontally)">
 
 <span class="mdFull mdNoGap" style="display: inline-block; overflow: auto">
@@ -49,6 +51,8 @@ They are the artifacts of an imagined, lost personal creed. A private mythology 
 </span>
 
 </mdcaption>
+
+</llctxregion>
 
 ![_full parallax(coeff:1)](beton_ikon_7x7/3.webp)
 ![_full parallax(coeff:1)](beton_ikon_7x7/4.webp)
