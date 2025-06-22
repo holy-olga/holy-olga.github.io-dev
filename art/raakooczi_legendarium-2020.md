@@ -1,5 +1,5 @@
 <!-- {
-    "img": "raakooczi_legendarium-2020/003kocsi_olga_rakoczilenegdarium.jpg",
+    "img": "art/raakooczi_legendarium-2020/003kocsi_olga_rakoczilenegdarium.jpg",
     "title": "Rákóczi Legendarium",
     "desc": "A golden book of legends and personal stories. The heart of Rákóczi Square in a year-long visual journey."
 } -->

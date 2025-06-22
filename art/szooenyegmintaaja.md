@@ -1,3 +1,9 @@
+<!-- {
+    "img": "art/szooenyegmintaaja/0565.png",
+    "title": "The Essence of Lajos Zoltai (2022)",
+    "desc": "Documentation, reproduction, collection"
+} -->
+
 ![_full noBlur parallax(coeff:-1)](szooenyegmintaaja/0500.png)
 ![_full noBlur parallax(coeff:-1)](szooenyegmintaaja/0501.png)
 ![_full noBlur parallax(coeff:-1)](szooenyegmintaaja/0502.png)

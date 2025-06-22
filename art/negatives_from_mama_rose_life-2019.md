@@ -1,5 +1,5 @@
 <!-- {
-    "img": "negatives_from_mama_rose_life-2019/3.webp",
+    "img": "art/negatives_from_mama_rose_life-2019/3.webp",
     "title": "Negatives from Mama Rose's life",
     "desc": "Materialize the dream of Mama Rose: The walk of the sinister cat."
 } -->

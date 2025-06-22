@@ -1,5 +1,5 @@
 <!-- {
-    "img": "Beton-Lada_2017/2.jpg",
+    "img": "art/Beton-Lada_2017/2.jpg",
     "title": "Beton Lada (2019)",
     "desc": "Miniaturized concrete LADA universe"
 } -->

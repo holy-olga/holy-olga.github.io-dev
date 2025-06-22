@@ -1,5 +1,5 @@
 <!-- {
-    "img": "vr_lada-2017/VR_LADA_inside.jpg",
+    "img": "art/vr_lada-2017/VR_LADA_inside.jpg",
     "title": "VR LADA (2017 - 2019)",
     "desc": "Drive a LADA car in the hare universe"
 } -->

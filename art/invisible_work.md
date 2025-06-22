@@ -1,5 +1,5 @@
 <!-- {
-    "img": "invisible_work/3-16_9.webp",
+    "img": "art/invisible_work/3-16_9.webp",
     "title": "Invisible Work",
     "desc": "Making the invisible visible - movement processes that we don’t really call work"
 } -->

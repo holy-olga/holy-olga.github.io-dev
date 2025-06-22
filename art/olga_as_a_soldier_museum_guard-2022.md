@@ -1,5 +1,5 @@
 <!-- {
-    "img": "olga_as_a_soldier_museum_guard-2022/katona_olga_02.jpg",
+    "img": "art/olga_as_a_soldier_museum_guard-2022/katona_olga_02.jpg",
     "title": "Olga as a Soldier Museum Guard (2022)",
     "desc": "A surreal experience of donning a 19th-century military uniform in a museum environment, blurring the lines between history, identity, and documentation."
 } -->

@@ -1,5 +1,5 @@
 <!-- {
-    "img": "beton_ikon_7x7/3.webp",
+    "img": "art/beton_ikon_7x7/3.webp",
     "title": "Beton Ikon 7x7",
     "desc": "49 Concrete slab icons"
 } -->

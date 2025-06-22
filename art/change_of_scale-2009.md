@@ -1,5 +1,5 @@
 <!-- {
-    "img": "change_of_scale-2009/3.webp",
+    "img": "art/change_of_scale-2009/3.webp",
     "title": "Change of Scale (2009)",
     "desc": "Contrast of childhood dreams and reality"
 } -->

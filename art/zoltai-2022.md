@@ -1,5 +1,5 @@
 <!-- {
-    "img": "zoltai-2022/zoltai02.jpg",
+    "img": "art/zoltai-2022/zoltai02.jpg",
     "title": "The Essence of Lajos Zoltai (2022)",
     "desc": "Documentation, reproduction, collection"
 } -->

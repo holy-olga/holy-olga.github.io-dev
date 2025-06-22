@@ -1,5 +1,5 @@
 <!-- {
-    "img": "bed_from_the_cottage/mary_hobo_0.jpg",
+    "img": "art/bed_from_the_cottage/mary_hobo_0.jpg",
     "title": "Ágy a házikóból / Bed from the cottage",
     "desc": "The city really no longer contains distinct private and public spaces"
 } -->
