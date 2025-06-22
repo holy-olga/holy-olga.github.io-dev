@@ -236,8 +236,8 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 | -----------------------------: | :---------------------- | :--------------------------------- |
 |                 **János Bali** | composer, conductor     | flute playing                      |
 |                **Ádám Czirák** | theatre critic, masseur | back massage                       |
-| **Hanna Csaby-Csépke and Mór** |                         | family interaction - breastfeeding |
-|       **Sándor Csaby and Mór** |                         | family interaction – swinging      |
+| **Hanna Csaby-Csépke and Mór** | mother and son          | family interaction - breastfeeding |
+|       **Sándor Csaby and Mór** | father and son          | family interaction – swinging      |
 |                  **Tamás Don** | curator                 | curating                           |
 |                **Anikó Illés** | research psychologist   | cooking tuna pasta                 |
 |               **Csaba Hruska** | programmer              | programming                        |
@@ -253,17 +253,19 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 
 ## Attribution
 
-|                          |                                       |
-| -----------------------: | :------------------------------------ |
-| **Dr. Dorottya Ágoston** | Researcher, laboratory operator (BME) |
-|  **Dr. Rita Kiss Mária** | Researcher, laboratory operator (BME) |
-|         **Dávid Mórász** | Programming / Computer-graphics       |
-|   **Dr. Norbert Kovács** | 3D Printing (BME)                     |
-|     **DLA. Kálmán Tarr** | 3D Printing                           |
+|                                    |                                       |
+| ---------------------------------: | :------------------------------------ |
+| (PhD student) **Dorottya Ágoston** | Researcher, laboratory operator (BME) |
+|            **Dr. Rita Kiss Mária** | Researcher, laboratory operator (BME) |
+|                   **Dávid Mórász** | Programming / Computer-graphics       |
+|             **Dr. Norbert Kovács** | 3D Printing (BME)                     |
+|               **DLA. Kálmán Tarr** | 3D Printing                           |
 
 **[BME-MOGI](https://centos.mogi.bme.hu)**: Movement Laboratory of the Department of Mechatronics, Optics and Machine Engineering Informatics
 
 ## Press and Links
+
+<cardlink href="https://eelisa.eu/when-arts-meet-science-at-bmes-art-residency-program/"></cardlink>
 
 <cardlink href="https://rezidensmuvesz.bme.hu/hungarian-resident-artists-2022-2023/"></cardlink>
 
@@ -274,6 +276,14 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 <cardlink href="https://qubit.hu/2023/03/18/holy-olga-a-muvesz-aki-a-tudomany-segitsegevel-tette-lathatova-a-lathatatlan-munkat"></cardlink>
 
 <cardlink href="https://www.prae.hu/news/42557-bme-muveszeti-rezidenciaprogram-zarokiallitasa-a-muegyetemen/"></cardlink>
+
+Presented at **TEDxBME**
+
+<cardlink href="https://www.tedxbme.hu/speakers"></cardlink>
+
+Shortlisted in **KASSÁK Contemporary Arts Award**
+
+<cardlink href="https://kassakmuzeum.hu/hu/kassak-kortars-muveszeti-dij-2025-dontosei"></cardlink>
 
 # Try it now
 

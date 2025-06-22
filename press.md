@@ -6,11 +6,15 @@
 
 <cardlink href="https://www.glamour.hu/plusz/aktualis/kocsi-olga-interju/q94mwzk"></cardlink>
 
+<cardlink href="https://eelisa.eu/when-arts-meet-science-at-bmes-art-residency-program/"></cardlink>
+
 <cardlink href="https://rezidensmuvesz.bme.hu/a-vilag-osszes-penzet-el-lehetne-kolteni-muveszetre-zaro-interju-kocsi-olgaval/"></cardlink>
 
 <cardlink href="https://qubit.hu/2023/03/18/holy-olga-a-muvesz-aki-a-tudomany-segitsegevel-tette-lathatova-a-lathatatlan-munkat"></cardlink>
 
 <cardlink href="https://www.prae.hu/news/42557-bme-muveszeti-rezidenciaprogram-zarokiallitasa-a-muegyetemen/"></cardlink>
+
+<cardlink href="https://kassakmuzeum.hu/hu/kassak-kortars-muveszeti-dij-2025-dontosei"></cardlink>
 
 <cardlink href="https://kultura.hu/kocsi-olga-nyerte-el-a-hab-dijat/"></cardlink>
 
