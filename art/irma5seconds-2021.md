@@ -72,6 +72,8 @@ Meeting of two Artists
 
 <cardlink href="https://www.godot.hu/kocsiolgaszaboeszteragnes-godot-katalizator-dij-heterotopia"></cardlink>
 
+<cardlink href="https://designisso.com/2021/10/07/muti-mit-eszel-erzeki-kepek-a-lets-eat-fotokiallitasrol/"></cardlink>
+
 ![_full](irma5seconds-2021/irma_jelenes.jpg)
 
 ## [Go back](/c/art)
