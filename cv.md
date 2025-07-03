@@ -214,7 +214,10 @@
 |      2014 | Internship as Art Teacher at KISKÉPZŐ Secondary School of Visual Arts **Budapest**                                                                |
 |           | Internship in Museum Pedagogy at Ludwig Museum **Budapest**                                                                                       |
 
-## [Artist Teacher Portfolio here](https://issuu.com/heldin/docs/kocsi_olga_portfolio_tanar_kicsi_ma)
-<br>
+## Artist Teacher Portfolio
+
+<mdpdf href="teacher-portfolio.pdf" mergedpairs="true" full="true"></mdpdf>
+
+[Download](teacher-portfolio.pdf)
 
 ## [Appearances in Press](/c/press)
