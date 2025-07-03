@@ -68,6 +68,8 @@ Meeting of two Artists
 
 ## Online press:
 
+<cardlink href="https://blog.capacenter.hu/2021/10/17/mate-wagner-show-us-what-you-eat-and-well-capture-who-you-are-capazine-lets-eat/"></cardlink>
+
 <cardlink href="https://www.godot.hu/kocsiolgaszaboeszteragnes-godot-katalizator-dij-heterotopia"></cardlink>
 
 ![_full](irma5seconds-2021/irma_jelenes.jpg)

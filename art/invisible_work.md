@@ -267,6 +267,8 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 
 <cardlink href="https://eelisa.eu/when-arts-meet-science-at-bmes-art-residency-program/"></cardlink>
 
+<cardlink href="https://phmuseum.com/projects/invisible-work-1"></cardlink>
+
 <cardlink href="https://rezidensmuvesz.bme.hu/hungarian-resident-artists-2022-2023/"></cardlink>
 
 <cardlink href="https://rezidensmuvesz.bme.hu/a-vilag-osszes-penzet-el-lehetne-kolteni-muveszetre-zaro-interju-kocsi-olgaval/"></cardlink>

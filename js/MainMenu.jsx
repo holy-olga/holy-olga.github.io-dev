@@ -11,6 +11,9 @@ export default class MainMenu extends React.Component {
                     <A href="/c/art">Art</A>
                 </h3>
                 <h3 className="menuItem">
+                    <A href="/c/press">Press</A>
+                </h3>
+                <h3 className="menuItem">
                     <A href="/c/cv">CV</A>
                 </h3>
             </div>

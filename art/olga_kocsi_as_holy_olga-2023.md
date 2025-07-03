@@ -37,4 +37,10 @@ This project was exhibited together with
 * [Invisible Journey (2023)](/c/art/invisible_journey-2023)
 * [Rákospalota-Pannonhalma Pilgrimage (2023)](/c/art/raakospalota_pannonhalma_pilgrimage-2023)
 
+## Press
+
+<cardlink href="https://www.artmagazin.hu/articles/ajanljuk_eztnezd/sator_labirintus_szuvenir"></cardlink>
+
+<cardlink href="https://www.magyarkurir.hu/hirek/zarandoklat-kortars-muveszeti-kiallitas-nyilt-pannonhalmi-foapatsagban"></cardlink>
+
 ## [Go back](/c/art)
