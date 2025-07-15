@@ -52,4 +52,10 @@ I brought her dream to life: The walk of the sinister cat. I created both digita
 ![_full](negatives_from_mama_rose_life-2019/cica_alom.webp)
 ![_full](negatives_from_mama_rose_life-2019/korte.webp)
 
-## [Go back](/c/art)
+&nbsp;
+
+<a href="https://capacenter.hu/en/">
+
+![_center style(height:150px)](../logos/robert-capa-logo-en.svg)
+
+</a>

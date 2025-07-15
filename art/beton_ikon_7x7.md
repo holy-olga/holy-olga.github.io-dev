@@ -63,6 +63,22 @@ In private collection of **[HAB Hungarian Art and Business](https://arthab.hu/en
 
 Many thanks for **[VPI Concrete Design Manufacture Kft.](https://vpi.hu/en/)** helping us with the manufacturing. Special thanks for **Péter István Varga**. Together we developed a custom pigment embedding method for this artwork where the image is dissolved into the concrete during its development. This was only possible with the signature unparalleled quality concrete mixture **VPI** is also known for.
 
+<span style="display: flex; justify-content: space-evenly; align-items: center">
+
+<a href="https://arthab.hu/en/about/">
+
+![_style(height:100px)](../logos/hab.svg)
+
+</a>
+
+<a href="https://vpi.hu/en/">
+
+![_style(height:150px) invert](../logos/vpi.webp)
+
+</a>
+
+</span>
+
 ![_parallax(side)](beton_ikon_7x7/8.webp)
 
 <mdcaption text="Icon in the making" nomargin="true">

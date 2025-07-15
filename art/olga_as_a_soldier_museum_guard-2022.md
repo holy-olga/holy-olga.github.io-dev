@@ -19,4 +19,10 @@ Unfortunately, it turned out soon that the uniform in the museum didn’t fit me
 
 I had my photo taken, in which I appear in the uniform, and printed on a steel plate, as if it was an enlarged, archived silver image. Next to the image another photograph can be seen, in which I appear as the museum guard. With the motif of repetition and as a form of documentation, I refer to my other work with an image in image representation, [the exhibition about the work of Lajos Zoltai](/c/art/zoltai-2022).
 
-## [Go back](/c/art)
+&nbsp;
+
+<a href="https://modemart.hu">
+
+![_center invert style(height:80px)](../logos/modem.png)
+
+</a>

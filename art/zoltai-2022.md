@@ -19,4 +19,10 @@ The objects on the white left wall come from the collection of Déri Museum, the
 
 Related work: [Olga as a Soldier Museum Guard (2022)](/c/art/olga_as_a_soldier_museum_guard-2022)
 
-## [Go back](/c/art)
+&nbsp;
+
+<a href="https://modemart.hu">
+
+![_center invert style(height:80px)](../logos/modem.png)
+
+</a>

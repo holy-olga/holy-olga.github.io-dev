@@ -263,6 +263,22 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 
 **[BME-MOGI](https://centos.mogi.bme.hu)**: Movement Laboratory of the Department of Mechatronics, Optics and Machine Engineering Informatics
 
+<span style="display: flex; justify-content: space-evenly; align-items: center">
+
+<a href="https://rezidensmuvesz.bme.hu/about/">
+
+![_style(height:150px) filter:'invert(100%) hue-rotate(180deg)'](../logos/bme-mrp.webp)
+
+</a>
+
+<a href="https://centos.mogi.bme.hu">
+
+![_style(height:100px) invert](../logos/bme.webp)
+
+</a>
+
+</span>
+
 ## Press and Links
 
 <cardlink href="https://eelisa.eu/when-arts-meet-science-at-bmes-art-residency-program/"></cardlink>
