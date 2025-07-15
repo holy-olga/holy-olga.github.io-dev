@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="2300" height="530" viewBox="0 0 2300 530">
+  <defs>
+    <style>
+      .d {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="logos">
+    <g>
+      <rect class="d" y="15" width="100" height="500"/>
+      <rect class="d" x="200" y="15" width="100" height="500"/>
+      <rect class="d" x="400" y="15" width="100" height="500"/>
+      <rect class="d" x="1200" y="15" width="100" height="500"/>
+      <rect class="d" x="1400" y="15" width="100" height="500"/>
+      <rect class="d" x="1600" y="15" width="100" height="500"/>
+      <rect class="d" x="2002.5" y="217.5" width="95" height="500" transform="translate(1582.5 2517.5) rotate(-90)"/>
+      <rect class="d" x="2002.5" y="15" width="95" height="500" transform="translate(1785 2315) rotate(-90)"/>
+      <rect class="d" x="2002.5" y="-187.5" width="95" height="500" transform="translate(1987.5 2112.5) rotate(-90)"/>
+      <path class="d" d="M850.0001,100c88.3643,0,160.0001,73.724,160.0001,165,0,91.1222-71.4872,165-160.0001,165-88.361,0-160.0001-73.7211-160.0001-165,0-91.1222,71.4872-165,160.0001-165M850.0001,0c-146.3552,0-265,118.6443-265,265s118.6448,265,265,265,265-118.6448,265-265S996.3558,0,850.0001,0h0Z"/>
+    </g>
+  </g>
+</svg>

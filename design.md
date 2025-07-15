@@ -1,0 +1,1 @@
+<nextmd href="/c/design/visual_memory_of_the_fires_of_debrecen-intro" ></nextmd>
