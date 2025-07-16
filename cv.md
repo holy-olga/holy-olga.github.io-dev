@@ -59,7 +59,7 @@
 
 ### In public space:
 
-* Visual Memory of the Fires of Debrecen, Data Physicalization, 2023, **Debrecen**
+* [Visual Memory of the Fires of Debrecen](/c/design/visual_memory_of_the_fires_of_debrecen), Data Physicalization, 2023, **Debrecen**
 
 ### Solo Exhibitions
 

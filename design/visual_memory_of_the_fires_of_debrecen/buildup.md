@@ -4,7 +4,7 @@
     "desc": "Construction of a permanent data physicalization sculpture, near Nagytemplom of Debrecen"
 } -->
 
-## [Visual Memory of the Fires of Debrecen](/c/art/visual_memory_of_the_fires_of_debrecen)
+## [Visual Memory of the Fires of Debrecen](/c/design/visual_memory_of_the_fires_of_debrecen)
 **Debreceni tűzesetek vizuális emlékezete**
 
 ## Buildup
@@ -35,4 +35,4 @@
 | **Mihály Minkó** | Photogrammetry         |
 | **Dávid Mórász** | 3D model and rendering |
 
-[Go back to main page](/c/art/visual_memory_of_the_fires_of_debrecen)
+[Go back to main page](/c/design/visual_memory_of_the_fires_of_debrecen)
