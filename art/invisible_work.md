@@ -255,6 +255,7 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 
 |                                    |                                       |
 | ---------------------------------: | :------------------------------------ |
+|                      **Anna Gács** | Curator, BME Art-residency (BME)      |
 | (PhD student) **Dorottya Ágoston** | Researcher, laboratory operator (BME) |
 |            **Dr. Rita Kiss Mária** | Researcher, laboratory operator (BME) |
 |                   **Dávid Mórász** | Programming / Computer-graphics       |
