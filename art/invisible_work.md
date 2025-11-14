@@ -257,7 +257,7 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 | ---------------------------------: | :------------------------------------ |
 |                      **Anna Gács** | Curator, BME Art-residency (BME)      |
 | (PhD student) **Dorottya Ágoston** | Researcher, laboratory operator (BME) |
-|            **Dr. Rita Mária Kiss** | BME MOGI Department director (BME)    |
+|            **Dr. Rita Mária Kiss** | BME MOGI Head of Department (BME)     |
 |                   **Dávid Mórász** | Programming / Computer-graphics       |
 |             **Dr. Norbert Kovács** | 3D Printing (BME)                     |
 |               **DLA. Kálmán Tarr** | 3D Printing                           |
