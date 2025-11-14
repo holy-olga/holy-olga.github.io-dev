@@ -121,10 +121,41 @@ Comissioned by **Moholy-Nagy University of Art and Design**, for the **City of D
 
 ## Press and Links
 
-<cardlink href="https://mome.hu/en/projektek/debreceni-tuzesetek-vizualis-emlekezete"></cardlink>
+<cardlink href="https://mome.hu/en/projektek/debreceni-tuzesetek-vizualis-emlekezete">
+<a href="https://mome.hu/en/projektek/debreceni-tuzesetek-vizualis-emlekezete">
+<img class="expand" src="visual_memory_of_the_fires_of_debrecen.md-links/2642663842958931505.jpg"></img>
+<div class="cardContent">
+<h2>MOME | Visual Memory of the Fires of Debrecen</h2>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://modemart.hu/program/az-adat-erzeki-latszata/"></cardlink>
+<cardlink href="https://modemart.hu/program/az-adat-erzeki-latszata/">
+<a href="https://modemart.hu/program/az-adat-erzeki-latszata/">
+<img class="expand" src="visual_memory_of_the_fires_of_debrecen.md-links/4089082566653624294.png"></img>
+<div class="cardContent">
+<p class="site">Modemart</p>
+<h2>Az adat érzéki látszata &#8211; Modemart</h2>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://mome.hu/en/hirek/varostorteneti-adatokbol-keszult-szoborral-allit-emleket-debrecen-a-helyi-tuzveszeknek"></cardlink>
+<cardlink href="https://mome.hu/en/hirek/varostorteneti-adatokbol-keszult-szoborral-allit-emleket-debrecen-a-helyi-tuzveszeknek">
+<a href="https://mome.hu/en/hirek/varostorteneti-adatokbol-keszult-szoborral-allit-emleket-debrecen-a-helyi-tuzveszeknek">
+<img class="expand" src="visual_memory_of_the_fires_of_debrecen.md-links/4632730223861540972.jpg"></img>
+<div class="cardContent">
+<h2>MOME | Debrecen commemorates local fires with a sculpture made using urban historical data </h2>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://ujmuveszet.hu/kunszt/gondolat-nelkul-nalam-nincs-munka/"></cardlink>
+<cardlink href="https://ujmuveszet.hu/kunszt/gondolat-nelkul-nalam-nincs-munka/">
+<a href="https://ujmuveszet.hu/kunszt/gondolat-nelkul-nalam-nincs-munka/">
+<img class="expand" src="visual_memory_of_the_fires_of_debrecen.md-links/3662284964246380804.jpg"></img>
+<div class="cardContent">
+<p class="site">ÚjMűvészet</p>
+<h2>Gondolat nélkül nálam nincs munka - ÚjMűvészet</h2>
+<p>Molnár Judit Lilla &quot;Nagyon sok minden érdekel, több életre való ötlet van a fejemben, végtelen sok minden pörög odabenn. Talán inkább arra nehéz fókuszálni, mikor mivel foglalkozzak, mire szánjak időt. &quot; - Kocsi Olga</p>
+</div>
+</a>
+</cardlink>

@@ -45,8 +45,15 @@ This project wouldn’t have been realized without the involvement of these expe
 
 ## Press
 
-<cardlink href="https://artportal.hu/magazin/aldott-ladakat-moma-ba/"></cardlink>
-
-<cardlink href="https://museum.photoireland.org/programme-2019/museumtv/"></cardlink>
+<cardlink href="https://museum.photoireland.org/programme-2019/museumtv/">
+<a href="https://museum.photoireland.org/programme-2019/museumtv/">
+<img class="expand" src="vr_lada-2017.md-links/734398477245992301.jpg"></img>
+<div class="cardContent">
+<p class="site">The Museum of Contemporary Photography of Ireland</p>
+<h2>Museum TV - The Museum of Contemporary Photography of Ireland</h2>
+<p>SPECIAL PROGRAMME 5-28 JULY 2019 Foyer Lounge Museum TV Running 22-28 July The Museum TV offers a schedule of videos, by and about several artists, from cur ...</p>
+</div>
+</a>
+</cardlink>
 
 ## [Go back](/c/art)

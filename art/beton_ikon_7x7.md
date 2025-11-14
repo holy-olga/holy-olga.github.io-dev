@@ -99,10 +99,36 @@ Many thanks for **[VPI Concrete Design Manufacture Kft.](https://vpi.hu/en/)** h
 
 ## Press
 
-<cardlink href="https://kultura.hu/kocsi-olga-nyerte-el-a-hab-dijat/"></cardlink>
+<cardlink href="https://kultura.hu/kocsi-olga-nyerte-el-a-hab-dijat/">
+<a href="https://kultura.hu/kocsi-olga-nyerte-el-a-hab-dijat/">
+<img class="expand" src="beton_ikon_7x7.md-links/6407980580923259445.jpg"></img>
+<div class="cardContent">
+<h2>Kocsi Olga nyerte el a HAB-díjat</h2>
+<p>Ünnepélyes díjátadón hirdette ki a HAB-díj nyertesét a Hungarian Art &amp; Business művészeti központot működtető MBH Bank Művészeti Alapítvány. A díjat a tavalyi évben alapították azzal a céllal, hogy egy kiválasztott, 35 év feletti művész számára az Alapítvány alkotói támogatást nyújtson összesen nettó 3,2 millió forint értékben. A benyújtott pályázatok közül Kocsi Olga 7x7 Beton ikon című alkotásának ítélte oda a szakmai zsűri az első helyezést, amelynek értelmében a mű megvalósítását követően az alkotás az alapítványi műgyűjtemény része lesz.</p>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://woohoo.hu/kihirdette-a-hab-dij-nyerteset-az-mbh-bank-muveszeti-alapitvany/"></cardlink>
+<cardlink href="https://woohoo.hu/kihirdette-a-hab-dij-nyerteset-az-mbh-bank-muveszeti-alapitvany/">
+<a href="https://woohoo.hu/kihirdette-a-hab-dij-nyerteset-az-mbh-bank-muveszeti-alapitvany/">
+<img class="expand" src="beton_ikon_7x7.md-links/2421134152079413339.jpeg"></img>
+<div class="cardContent">
+<p class="site">woohoo.hu</p>
+<h2>Kihirdette a HAB Díj nyertesét az MBH Bank Művészeti Alapítvány</h2>
+<p>Ünnepélyes díjátadón hirdette ki a HAB Díj nyertesét a Hungarian Art &amp; Business művészeti központot működtető MBH Bank Művészeti Alapítvány.</p>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://magyarnemzet.hu/kultura/2024/03/hab-dij-2024"></cardlink>
+<cardlink href="https://magyarnemzet.hu/kultura/2024/03/hab-dij-2024">
+<a href="https://magyarnemzet.hu/kultura/2024/03/hab-dij-2024">
+<img class="expand" src="beton_ikon_7x7.md-links/18159724429938942549.jpg"></img>
+<div class="cardContent">
+<p class="site">Magyar Nemzet</p>
+<h2>Polgári napilap és hírportál | Magyar Nemzet</h2>
+<p>Magyar Nemzet - Szellemi honvédelem 1938 óta. Friss hírek hazai, külföldi, sport, kultúra és gazdasági témakörökben. Véleménycikkek és történelmi visszatekintések.</p>
+</div>
+</a>
+</cardlink>
 
 ## [Go back](/c/art)

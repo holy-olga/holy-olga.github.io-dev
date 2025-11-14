@@ -68,11 +68,37 @@ Meeting of two Artists
 
 ## Online press:
 
-<cardlink href="https://blog.capacenter.hu/2021/10/17/mate-wagner-show-us-what-you-eat-and-well-capture-who-you-are-capazine-lets-eat/"></cardlink>
+<cardlink href="https://blog.capacenter.hu/2021/10/17/mate-wagner-show-us-what-you-eat-and-well-capture-who-you-are-capazine-lets-eat/">
+<a href="https://blog.capacenter.hu/2021/10/17/mate-wagner-show-us-what-you-eat-and-well-capture-who-you-are-capazine-lets-eat/">
+<img class="expand" src="irma5seconds-2021.md-links/2402783901890246932.jpg"></img>
+<div class="cardContent">
+<p class="site">CAPA BLOG | A Capa Központ blogja</p>
+<h2>Máté Wágner: Show us What You Eat and We&#039;ll Capture Who You Are (CAPAZINE – LET&#039;S EAT) - CAPA BLOG | A Capa Központ blogja</h2>
+<p>&quot;The artworks produced at the CAPAZINE – LET’S EAT workshop prove that the visual representation of food is such an extremely complex cultural phenomenon as food itself.&quot;—Máté Wágner participated on the CAPAZINE – LET’S EAT workshop as a writer. His essay called Show us What You Eat and We&#039;ll Capture Who You Are she reflects on the works made during the workshop.</p>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://www.godot.hu/kocsiolgaszaboeszteragnes-godot-katalizator-dij-heterotopia"></cardlink>
+<cardlink href="https://www.godot.hu/kocsiolgaszaboeszteragnes-godot-katalizator-dij-heterotopia">
+<a href="https://www.godot.hu/kocsiolgaszaboeszteragnes-godot-katalizator-dij-heterotopia">
+<img class="expand" src="irma5seconds-2021.md-links/4981490175733625048.jpg"></img>
+<div class="cardContent">
+<p class="site">Godot I.C.A.</p>
+<h2>Kocsi Olga &amp; Szabó Eszter Ágnes / Godot-Katalizator-díj / Heterotopia /Kiállítás - Godot I.C.A.</h2>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://designisso.com/2021/10/07/muti-mit-eszel-erzeki-kepek-a-lets-eat-fotokiallitasrol/"></cardlink>
+<cardlink href="https://designisso.com/2021/10/07/muti-mit-eszel-erzeki-kepek-a-lets-eat-fotokiallitasrol/">
+<a href="https://designisso.com/2021/10/07/muti-mit-eszel-erzeki-kepek-a-lets-eat-fotokiallitasrol/">
+<img class="expand" src="irma5seconds-2021.md-links/7139759506762650889.jpg"></img>
+<div class="cardContent">
+<p class="site">DESIGNISSO - magazine for design and visual arts</p>
+<h2>Muti, mit eszel! – Érzéki képek a Let’s eat fotókiállításról - DESIGNISSO</h2>
+<p>Látni és érzékelni – ez a két fogalom sokáig szemben állt egymással. Míg a látást az objektív megismerés elsődleges eszközének tekintjük, addig az érzékelés alatt valami szubjektív, személyes, nem racionalizálható benyomást szoktunk érteni. Annak ellenére, hogy mára ez az elgondolás veszített kizárólagosságából, részben talán feloldódott, a fotóművészet mégis nehezen szabadul a látás korlátozó kereteiből. A látás kiemelt szerepének – Arisztotelész óta velünk lévő – dogmája lebontható és lebontandó. Többek között erre törekszik a Capa Központ</p>
+</div>
+</a>
+</cardlink>
 
 ![_full](irma5seconds-2021/irma_jelenes.jpg)
 

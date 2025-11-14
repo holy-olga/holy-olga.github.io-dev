@@ -39,8 +39,25 @@ This project was exhibited together with
 
 ## Press
 
-<cardlink href="https://www.artmagazin.hu/articles/ajanljuk_eztnezd/sator_labirintus_szuvenir"></cardlink>
+<cardlink href="https://www.artmagazin.hu/articles/ajanljuk_eztnezd/sator_labirintus_szuvenir">
+<a href="https://www.artmagazin.hu/articles/ajanljuk_eztnezd/sator_labirintus_szuvenir">
+<img class="expand" src="olga_kocsi_as_holy_olga-2023.md-links/12299503996383688782.jpg"></img>
+<div class="cardContent">
+<p class="site">Artmagazin</p>
+<h2>Ezt nézd – A sátor, a labirintus, és a szuvenír</h2>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://www.magyarkurir.hu/hirek/zarandoklat-kortars-muveszeti-kiallitas-nyilt-pannonhalmi-foapatsagban"></cardlink>
+<cardlink href="https://www.magyarkurir.hu/hirek/zarandoklat-kortars-muveszeti-kiallitas-nyilt-pannonhalmi-foapatsagban">
+<a href="https://www.magyarkurir.hu/hirek/zarandoklat-kortars-muveszeti-kiallitas-nyilt-pannonhalmi-foapatsagban">
+<img class="expand" src="olga_kocsi_as_holy_olga-2023.md-links/8627948982401576611.jpg"></img>
+<div class="cardContent">
+<p class="site">Magyar Kurír</p>
+<h2>Zarándoklat – Kortárs művészeti kiállítás nyílt a Pannonhalmi Főapátságban</h2>
+<p>Április 5-én, nagyszerdán nyílt meg a Pannonhalmi Főapátság kortárs művészeti kiállítása. A főapátság idei kulturális-spirituális évadának témája a zarándoklat – 2023-ban e fogalom körbejárására és megértésére tesznek kísérletet művészek, alkotók, szerzetesek és az érdeklődő vendégek. A tárlat november 11-ig ingyenesen megtekinthető a főmonostori kiállítótérben.</p>
+</div>
+</a>
+</cardlink>
 
 ## [Go back](/c/art)

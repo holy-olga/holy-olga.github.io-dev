@@ -282,27 +282,100 @@ Stylized renders of the sculptures built by the paths individual motions have dr
 
 ## Press and Links
 
-<cardlink href="https://eelisa.eu/when-arts-meet-science-at-bmes-art-residency-program/"></cardlink>
+<cardlink href="https://eelisa.eu/when-arts-meet-science-at-bmes-art-residency-program/">
+<a href="https://eelisa.eu/when-arts-meet-science-at-bmes-art-residency-program/">
+<img class="expand" src="invisible_work.md-links/17097669594140513437.jpg"></img>
+<div class="cardContent">
+<p class="site">EELISA</p>
+<h2>When art meets science: BME&#039;s Art Residency Program &#8212; EELISA</h2>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://phmuseum.com/projects/invisible-work-1"></cardlink>
+<cardlink href="https://phmuseum.com/projects/invisible-work-1">
+<a href="https://phmuseum.com/projects/invisible-work-1">
+<img class="expand" src="invisible_work.md-links/5132364543095791804.unknown"></img>
+<div class="cardContent">
+<h2>Invisible work - PhMuseum</h2>
+<p>Unseen Labor, Seen: Exploring hidden work (domestic, caregiving) through movement data captured via motion capture technology. From cooking, playing music, to caring for children, everyday actions transformed into digital sculptures, prints, glasses.</p>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://rezidensmuvesz.bme.hu/hungarian-resident-artists-2022-2023/"></cardlink>
+<cardlink href="https://rezidensmuvesz.bme.hu/hungarian-resident-artists-2022-2023/">
+<a href="https://rezidensmuvesz.bme.hu/hungarian-resident-artists-2022-2023/">
+<div class="cardContent">
+<h2>Hungarian Resident Artists 2022-2023</h2>
+<p>Resident artists Olga Kocsi and Ádám Boruzs after a presentation for researchers at BME, 2022 Ádám BORUZS Ádám Boruzs graduated from the Hungarian University of Fine Arts in Painting and Art Teach…</p>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://rezidensmuvesz.bme.hu/a-vilag-osszes-penzet-el-lehetne-kolteni-muveszetre-zaro-interju-kocsi-olgaval/"></cardlink>
+<cardlink href="https://rezidensmuvesz.bme.hu/a-vilag-osszes-penzet-el-lehetne-kolteni-muveszetre-zaro-interju-kocsi-olgaval/">
+<a href="https://rezidensmuvesz.bme.hu/a-vilag-osszes-penzet-el-lehetne-kolteni-muveszetre-zaro-interju-kocsi-olgaval/">
+<img class="expand" src="invisible_work.md-links/16094956090581640782.jpg"></img>
+<div class="cardContent">
+<h2>„A világ összes pénzét el lehetne költeni művészetre” – záró interjú Kocsi Olgával</h2>
+<p>Kocsi Olga a rezidenciaprogram egyik nyertes pályázója volt, aki a Műszaki Egyetem tanáraival konzultálva hozta létre a Láthatatlan munka című kiállítást. Olga a kiállításon a különböző hétköznapi…</p>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://aqb.hu/hu/exhibition/bme-muveszeti-rezidenciaprogram-kiallitasa/"></cardlink>
+<cardlink href="https://aqb.hu/hu/exhibition/bme-muveszeti-rezidenciaprogram-kiallitasa/">
+<a href="https://aqb.hu/hu/exhibition/bme-muveszeti-rezidenciaprogram-kiallitasa/">
+<img class="expand" src="invisible_work.md-links/15089133466586345769.png"></img>
+<div class="cardContent">
+<h2>BME Művészeti Rezidenciaprogram kiállítása</h2>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://qubit.hu/2023/03/18/holy-olga-a-muvesz-aki-a-tudomany-segitsegevel-tette-lathatova-a-lathatatlan-munkat"></cardlink>
+<cardlink href="https://qubit.hu/2023/03/18/holy-olga-a-muvesz-aki-a-tudomany-segitsegevel-tette-lathatova-a-lathatatlan-munkat">
+<a href="https://qubit.hu/2023/03/18/holy-olga-a-muvesz-aki-a-tudomany-segitsegevel-tette-lathatova-a-lathatatlan-munkat">
+<img class="expand" src="invisible_work.md-links/4811654999910957555.jpeg"></img>
+<div class="cardContent">
+<p class="site">Qubit</p>
+<h2>Holy Olga: a művész, aki a tudomány segítségével tette láthatóvá a láthatatlan munkát</h2>
+<p>Magyarországon egyedülálló művészeti rezidenciaprogram eredményét mutatták be a Műegyetem minikiállításán: az alkotók a BME tudósaival együtt dolgoztak egy-egy projekten. De hogyan lehet száraz kutatási adatok alapján műalkotássá formálni a teregetést, a mosogatást vagy a tésztafőzést?</p>
+</div>
+</a>
+</cardlink>
 
-<cardlink href="https://www.prae.hu/news/42557-bme-muveszeti-rezidenciaprogram-zarokiallitasa-a-muegyetemen/"></cardlink>
+<cardlink href="https://www.prae.hu/news/42557-bme-muveszeti-rezidenciaprogram-zarokiallitasa-a-muegyetemen/">
+<a href="https://www.prae.hu/news/42557-bme-muveszeti-rezidenciaprogram-zarokiallitasa-a-muegyetemen/">
+<img class="expand" src="invisible_work.md-links/6847043225244628871.jpg"></img>
+<div class="cardContent">
+<p class="site">PRAE.HU - a művészeti portál</p>
+<h2>BME Művészeti Rezidenciaprogram zárókiállítása a Műegyetemen / PRAE.HU - a művészeti portál</h2>
+<p>Március 8-án, szerdán este 6 órakor nyílik meg Kocsi Olga és Boruzs Ádám, BME Művészeti Rezidenciaprogram 2022-es évi nyertes művészeinek zárókiállítása a Műegyetemen.</p>
+</div>
+</a>
+</cardlink>
 
 Presented at **TEDxBME**
 
-<cardlink href="https://www.tedxbme.hu/speakers"></cardlink>
+<cardlink href="https://www.tedxbme.hu/speakers">
+<a href="https://www.tedxbme.hu/speakers">
+<img class="expand" src="invisible_work.md-links/14745981511498429680.png"></img>
+<div class="cardContent">
+<h2>TEDxBME 2025 Speakers</h2>
+<p>Meet thought leaders, visionaries, and change-makers who will ignite your curiosity with remarkable stories and revolutionary ideas. From scientists to artists, entrepreneurs to activists, our diverse lineup explores groundbreaking discoveries and tackles global challenges.</p>
+</div>
+</a>
+</cardlink>
 
 Shortlisted in **KASSÁK Contemporary Arts Award**
 
-<cardlink href="https://kassakmuzeum.hu/hu/kassak-kortars-muveszeti-dij-2025-dontosei"></cardlink>
+<cardlink href="https://kassakmuzeum.hu/hu/kassak-kortars-muveszeti-dij-2025-dontosei">
+<a href="https://kassakmuzeum.hu/hu/kassak-kortars-muveszeti-dij-2025-dontosei">
+<img class="expand" src="invisible_work.md-links/15435510732300191311.jpg"></img>
+<div class="cardContent">
+<p class="site">Kassák</p>
+<h2>A KASSÁK KORTÁRS MŰVÉSZETI DÍJ 2025 DÖNTŐSEI</h2>
+<p>A Kassák kortárs művészeti díjat idén negyedszer adja át az MNM KK PIM Kassák Múzeum, Dr. Argay István, a díj alapítója, és a Rechnitzer Alapítvány, a díj főtámogatója. 2025-ben a döntőbe Gróf Ferenc és Gyenes Zsófia, Januško Klaudia, Kocsi Olga, Monory Ráhel, Nagy Barbara jutottak be. A döntős pályaművekből idén három a hatalmi struktúrák hatását vizsgálja, egy a jövő tervezésére fókuszál, a kritikai pedagógiát segítségül hívva, egy pedig a látással és a láthatósággal foglalkozik.</p>
+</div>
+</a>
+</cardlink>
 
 # Try it now
 
